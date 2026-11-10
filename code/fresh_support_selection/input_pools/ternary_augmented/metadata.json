@@ -1,0 +1,20 @@
+{
+  "source": "expanded PR database plus archived offline candidate clouds",
+  "flow_trajectory_used": false,
+  "splits": {
+    "liquid": {
+      "train": 9523,
+      "validation": 4429,
+      "test": 4096,
+      "archived_candidate_added": 1331,
+      "archived_validation_retained": 333
+    },
+    "vapor": {
+      "train": 9764,
+      "validation": 4490,
+      "test": 4096,
+      "archived_candidate_added": 1572,
+      "archived_validation_retained": 394
+    }
+  }
+}

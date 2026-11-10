@@ -1,0 +1,29 @@
+{
+  "system": ["CH4", "CO2", "nC4"],
+  "temperature_K": 320.0,
+  "cells": 6,
+  "length_m": 0.6,
+  "porosity": 0.2,
+  "permeability_m2": 1e-15,
+  "liquid_viscosity_Pa_s": 0.00025,
+  "vapor_viscosity_Pa_s": 1.5e-05,
+  "relative_permeability": ["krL=(1-Sg)^2", "krV=Sg^2"],
+  "gravity": false,
+  "capillary_pressure": false,
+  "inlet_pressure_MPa": 3.2,
+  "outlet_pressure_MPa": 2.0,
+  "initial_composition": [0.04, 0.08, 0.88],
+  "injection_stages": [
+    {"name": "two-phase injection", "composition": [0.15, 0.15, 0.70], "duration_s": 8000.0},
+    {"name": "liquid wash", "composition": [0.04, 0.08, 0.88], "duration_s": 22000.0},
+    {"name": "vapour-rich injection", "composition": [0.65, 0.20, 0.15], "duration_s": 30000.0}
+  ],
+  "time_grid": "caseC_time_grid.csv",
+  "mage_supports_per_phase": 1280,
+  "mage_tau": 0.65,
+  "nonlinear_acceptance": {
+    "MAGE_max_scaled_residual": 2e-06,
+    "PR_max_scaled_residual": 2e-05
+  },
+  "phase_label_threshold_Sg": 0.0001
+}
