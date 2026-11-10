@@ -1,0 +1,51 @@
+{
+  "candidate_count": 12000,
+  "validation_count": 5000,
+  "states_per_exact_temperature": 192,
+  "support_counts": [
+    512,
+    1024,
+    1536,
+    2048,
+    3072,
+    4096
+  ],
+  "candidate_pressure_count": 41,
+  "validation_pressure_count": 17,
+  "vle_pressure_count": 41,
+  "support_temperature_spacing_K": 0.25,
+  "dense_equilibrium_supports": false,
+  "equilibrium_support_fraction": 0.85,
+  "temperature_domain_K": [
+    295.0,
+    350.0
+  ],
+  "pressure_domain_Pa": [
+    500000.0,
+    7000000.0
+  ],
+  "holdout_bands_K": [
+    [
+      304.5,
+      305.5
+    ],
+    [
+      324.5,
+      325.5
+    ],
+    [
+      344.5,
+      345.5
+    ]
+  ],
+  "tau_grid": [
+    0.0078125,
+    0.015625,
+    0.03125,
+    0.0625,
+    0.125,
+    0.25,
+    0.5
+  ],
+  "quick": false
+}

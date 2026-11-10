@@ -1,0 +1,10 @@
+{
+  "candidate_temperatures_exclude_all_holdout_bands": true,
+  "validation_temperatures_exclude_all_holdout_bands": true,
+  "candidate_pools_contain_both_state_sources": true,
+  "selected_supports_contain_both_state_sources": true,
+  "all_state_errors_finite": true,
+  "all_selected_model_vle_states_converged": true,
+  "selected_support_count": 128,
+  "all_required_checks_pass": true
+}

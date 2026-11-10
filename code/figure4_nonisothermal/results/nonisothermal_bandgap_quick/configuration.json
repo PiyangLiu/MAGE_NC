@@ -1,0 +1,42 @@
+{
+  "candidate_count": 1536,
+  "validation_count": 384,
+  "states_per_exact_temperature": 40,
+  "support_counts": [
+    32,
+    64,
+    128
+  ],
+  "candidate_pressure_count": 9,
+  "validation_pressure_count": 5,
+  "vle_pressure_count": 9,
+  "temperature_domain_K": [
+    295.0,
+    350.0
+  ],
+  "pressure_domain_Pa": [
+    500000.0,
+    7000000.0
+  ],
+  "holdout_bands_K": [
+    [
+      302.0,
+      308.0
+    ],
+    [
+      322.0,
+      328.0
+    ],
+    [
+      342.0,
+      348.0
+    ]
+  ],
+  "tau_grid": [
+    0.0625,
+    0.125,
+    0.25,
+    0.5
+  ],
+  "quick": true
+}

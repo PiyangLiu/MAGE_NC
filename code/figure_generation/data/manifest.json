@@ -1,0 +1,75 @@
+{
+  "description": "Python plot-ready products for accepted unified support-selection recomputations; no scientific interpolation or refitting.",
+  "checks": {
+    "binary_selected_supports_per_phase": 1024,
+    "nonisothermal_selected_supports_per_phase": {
+      "liquid": 1592,
+      "vapor": 1392
+    },
+    "gerg_selected_supports_per_phase": {
+      "liquid": 3264,
+      "vapor": 1592
+    },
+    "lle_selected_supports_per_branch": {
+      "L1": 192,
+      "L2": 184
+    },
+    "flow_selected_supports_per_phase": 1280,
+    "flow_space_time_states": 552,
+    "flow_phase_events": 24
+  },
+  "files": {
+    "figure2_ecdf.csv": {
+      "bytes": 427683,
+      "sha256": "4539e9d62237cb612dbc2ea74afb730e37deb14ed802954135f1d3e07c5c7e14"
+    },
+    "figure2_summary.json": {
+      "bytes": 6854305,
+      "sha256": "f506bc4452113d77f98aaa73c4aac28e0695f04d17fc37c59b553c8f1369de8e"
+    },
+    "figure2_vle.csv": {
+      "bytes": 7461,
+      "sha256": "867175e7885ffcf0333dfae29ed41e2a6d7dff4db64324c8ca3a97c5f4bfb722"
+    },
+    "figure3_metrics.csv": {
+      "bytes": 1657,
+      "sha256": "9724d6585c92a86d30bec5522d4db6867e412b4f6cef14c7ca936815cd54101d"
+    },
+    "figure3_vle_M1024.csv": {
+      "bytes": 4373,
+      "sha256": "b68b25afb5a05b0ec8f123383165cb28303201ca12791c7cf93ef8d4ab925409"
+    },
+    "figure3_vle_M16.csv": {
+      "bytes": 4380,
+      "sha256": "b8fa06413b6307d8e3e056825de9ead08a164df7760e3024fa15301aceff02ae"
+    },
+    "figure3_vle_M64.csv": {
+      "bytes": 4373,
+      "sha256": "e015266dba0f6ae05136e0083567ddf9a937f24228c552e321636de5fa659986"
+    },
+    "figure4_coverage.csv": {
+      "bytes": 541955,
+      "sha256": "fdc75d83de936661b4df06cc8e19e6bc8302cc3d080266ddf24d40ce39649d28"
+    },
+    "figure4_curves.csv": {
+      "bytes": 82541,
+      "sha256": "886d6178db98c02dd6ba677509a0dfaa846350187a738a1d3596e03d65c9a317"
+    },
+    "figure4_energy_errors.csv": {
+      "bytes": 110185,
+      "sha256": "b9638ab20c3ddd68c071d79a26122d6883eb540f159577784c90651b07439f48"
+    },
+    "figure4_vle_errors.csv": {
+      "bytes": 1442,
+      "sha256": "bf12d6d3faa6e5aa2be9d7137d3fce286083262ddb31c112f407feb19ca2c865"
+    },
+    "figure5_generality_plot_data.json": {
+      "bytes": 1270316,
+      "sha256": "b347128e5d428e8351baabbe3fd07892578578bfcc73dfbee4192d6962512754"
+    },
+    "figure6_flow_plot_data.json": {
+      "bytes": 529607,
+      "sha256": "6e6411081b0d05ad56b594ad33dec7aeaefb04fc02b819db3280247159c8261f"
+    }
+  }
+}
