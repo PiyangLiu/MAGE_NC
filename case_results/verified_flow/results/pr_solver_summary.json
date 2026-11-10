@@ -1,0 +1,15 @@
+{
+  "runtime_s": 16.033854961395264,
+  "accepted_steps": 92,
+  "preprocessing_flash_calls": 9,
+  "preprocessing_PR_EOS_evaluations": 369,
+  "online_local_flash_requests_in_global_residual": 66564,
+  "online_executed_local_flash_calls_with_exact_cache": 14826,
+  "online_PR_EOS_evaluations": 288057,
+  "global_residual_evaluations": 11094,
+  "exact_flash_cache_hits": 52290,
+  "mean_flash_iterations": 8.015234243343444,
+  "max_scaled_residual": 1.051594007606127e-08,
+  "max_component_relative_mass_balance_error": 8.933625303518886e-09,
+  "phase_events": 24
+}

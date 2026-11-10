@@ -1,0 +1,14 @@
+{
+  "runtime_s": 4.9125282764434814,
+  "accepted_steps": 92,
+  "online_local_flash_calls": 0,
+  "online_TPD_calls": 0,
+  "online_explicit_phase_switches": 0,
+  "online_MAGE_branch_state_evaluations": 24604,
+  "global_residual_evaluations": 1850,
+  "offline_PR_flash_calls": 9,
+  "offline_PR_EOS_evaluations": 378,
+  "max_scaled_residual": 4.3875028314472564e-07,
+  "max_component_relative_mass_balance_error": 1.8166747930026994e-12,
+  "phase_events": 24
+}

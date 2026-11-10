@@ -1,0 +1,164 @@
+{
+  "case": "B",
+  "thermodynamic_model": {
+    "file": "ternary_model/mage_ternary_1280.npz",
+    "sha256": "7aff7409b14ce475d0abb4cfce65b59bb2ae69dd04d586c1a84a0b1e3b4b33c8",
+    "summary_sha256": "f5ee062337232b064880ab2b81aad6c594d56047fcaeea14c86d427b3806faf3",
+    "supports_per_phase": 1280,
+    "tau": 0.65,
+    "same_file_used_by_primary_unified_flow": true
+  },
+  "configuration": {
+    "system": [
+      "CH4",
+      "CO2",
+      "nC4"
+    ],
+    "temperature_K": 320.0,
+    "cells": 6,
+    "length_m": 0.6,
+    "porosity": 0.2,
+    "permeability_m2": 1e-15,
+    "liquid_viscosity_Pa_s": 0.00025,
+    "vapor_viscosity_Pa_s": 1.5e-05,
+    "relative_permeability": [
+      "krL=(1-Sg)^2",
+      "krV=Sg^2"
+    ],
+    "gravity": false,
+    "capillary_pressure": false,
+    "inlet_pressure_MPa": 3.2,
+    "outlet_pressure_MPa": 2.0,
+    "initial_composition": [
+      0.04,
+      0.08,
+      0.88
+    ],
+    "injection_stages": [
+      {
+        "name": "two-phase injection",
+        "composition": [
+          0.15,
+          0.15,
+          0.7
+        ],
+        "duration_s": 8000.0
+      },
+      {
+        "name": "liquid wash",
+        "composition": [
+          0.04,
+          0.08,
+          0.88
+        ],
+        "duration_s": 22000.0
+      },
+      {
+        "name": "vapour-rich injection",
+        "composition": [
+          0.65,
+          0.2,
+          0.15
+        ],
+        "duration_s": 30000.0
+      }
+    ],
+    "time_grid": "caseC_time_grid.csv",
+    "mage_supports_per_phase": 1280,
+    "mage_tau": 0.65,
+    "nonlinear_acceptance": {
+      "MAGE_max_scaled_residual": 2e-06,
+      "PR_max_scaled_residual": 2e-05
+    },
+    "phase_label_threshold_Sg": 0.0001
+  },
+  "MAGE_solver": {
+    "runtime_s": 4.685486793518066,
+    "accepted_steps": 93,
+    "online_local_flash_calls": 0,
+    "online_TPD_calls": 0,
+    "online_explicit_phase_switches": 0,
+    "online_MAGE_branch_state_evaluations": 25542,
+    "global_residual_evaluations": 1926,
+    "offline_PR_flash_calls": 9,
+    "offline_PR_EOS_evaluations": 378,
+    "max_scaled_residual": 3.4139504688195734e-07,
+    "max_component_relative_mass_balance_error": 1.9746462678919583e-11,
+    "phase_events": 24
+  },
+  "PR_solver": {
+    "runtime_s": 14.168992519378662,
+    "accepted_steps": 93,
+    "preprocessing_flash_calls": 9,
+    "preprocessing_PR_EOS_evaluations": 369,
+    "online_local_flash_requests_in_global_residual": 67392,
+    "online_executed_local_flash_calls_with_exact_cache": 15030,
+    "online_PR_EOS_evaluations": 295205,
+    "global_residual_evaluations": 11232,
+    "exact_flash_cache_hits": 52920,
+    "mean_flash_iterations": 8.103663807434005,
+    "max_scaled_residual": 1.111511363660611e-08,
+    "max_component_relative_mass_balance_error": 6.15469275604814e-09,
+    "phase_events": 24
+  },
+  "comparison": {
+    "space_time_states": 558,
+    "phase_state_match_fraction": 1.0,
+    "phase_state_mismatches": 0,
+    "phase_events_MAGE": 24,
+    "phase_events_PR": 24,
+    "phase_event_step_cell_transition_identity": true,
+    "pressure_relative_error_mean": 0.0005125847787425049,
+    "pressure_relative_error_max": 0.005001898872609755,
+    "composition_absolute_error_mean": 0.000661103769327661,
+    "composition_absolute_error_max": 0.05748412852981383,
+    "gas_saturation_absolute_error_mean": 0.0011244535392240637,
+    "gas_saturation_absolute_error_max": 0.012313537702882432
+  },
+  "domain_audit": {
+    "state_count": 558,
+    "all_map_residuals_finite": true,
+    "max_map_residual": 1.8165090751775386e-07,
+    "online_minimums_eta_1_eta_2_eta_3_S_P_MPa": [
+      1.9441610221721062,
+      1.2604425319392607,
+      0.87659838752904,
+      5e-324,
+      2.048200488274728
+    ],
+    "online_maximums_eta_1_eta_2_eta_3_S_P_MPa": [
+      2.995567656068338,
+      1.9848007792305067,
+      1.3839309383509304,
+      0.9999999999999999,
+      3.188728687711532
+    ],
+    "selected_support_eta_min": [
+      -0.23693633846987688,
+      -0.1233333990275015,
+      -0.36167585567113214
+    ],
+    "selected_support_eta_max": [
+      3.080900172095743,
+      2.6412315108675424,
+      1.4326285578946538
+    ],
+    "all_online_dual_states_inside_selected_componentwise_support_box": true,
+    "all_online_pressure_inside_declared_1p25_to_3p25_MPa": true,
+    "all_online_S_inside_closed_unit_interval": true,
+    "minimum_distance_to_solver_eta_bounds": 0.16606906164906965,
+    "minimum_distance_to_pressure_bounds_MPa": 0.06127131228846805,
+    "selected_support_convex_hull_test_on_eta_1_to_eta_3": {
+      "available": true,
+      "inside_fraction": 1.0,
+      "max_inequality": -0.0008687045530109128
+    }
+  },
+  "support_selection": "fresh validation-error greedy; flow was downstream only",
+  "supports_per_phase": {
+    "liquid": 1280,
+    "vapor": 1280
+  },
+  "tau": 0.65,
+  "shared_phi_offset": 3.816174331569027
+}

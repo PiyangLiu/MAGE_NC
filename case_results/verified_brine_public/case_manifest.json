@@ -1,0 +1,26 @@
+﻿{
+    "case":  "Supplementary Note 5.1 gas--brine",
+    "quick":  false,
+    "summary":  {
+                    "states":  3584,
+                    "independent_mothers":  512,
+                    "candidate_count_liquid":  2048,
+                    "candidate_count_gas":  2048,
+                    "support_count_liquid":  1376,
+                    "support_count_gas":  368,
+                    "training_best_monitor":  2.856496910066878,
+                    "training_steps":  2000,
+                    "model_tag":  "fresh1376_368_2000",
+                    "output_tag":  "fresh1376_368_authoritative",
+                    "selection_count_override":  null,
+                    "python_executable":  "G:\\developer\\anconda\\envs\\PINN\\python.exe",
+                    "torch_version":  "2.11.0+cu128",
+                    "KKT_success":  0.9614955357142857,
+                    "beta_MAE":  0.00017609931639213928,
+                    "rho_mean_rel":  0.003466070101008096,
+                    "h_mean_rel":  0.0018601937152004856,
+                    "liquid_H2_mean_rel":  0.17062573402705933,
+                    "gas_salt_max":  0.0,
+                    "algorithm":  "common distance-residual validation greedy; selected count is the smallest prefix meeting the declared validation thresholds"
+                }
+}

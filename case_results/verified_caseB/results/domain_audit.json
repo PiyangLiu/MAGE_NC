@@ -1,0 +1,39 @@
+{
+  "state_count": 552,
+  "all_map_residuals_finite": true,
+  "max_map_residual": 9.36934034134751e-07,
+  "online_minimums_eta_1_eta_2_eta_3_S_P_MPa": [
+    2.0154882123601876,
+    1.244920678134138,
+    0.879680170314661,
+    8.756356047953231e-29,
+    2.033862341054511
+  ],
+  "online_maximums_eta_1_eta_2_eta_3_S_P_MPa": [
+    2.995819323232759,
+    1.9896557254485792,
+    1.382213480408865,
+    0.9999999999999999,
+    3.189072421418833
+  ],
+  "selected_support_eta_min": [
+    -0.23693633846987688,
+    -0.1233333990275015,
+    -0.36167585567113214
+  ],
+  "selected_support_eta_max": [
+    3.1400597025576262,
+    2.7383490297809994,
+    1.4326285578946538
+  ],
+  "all_online_dual_states_inside_selected_componentwise_support_box": true,
+  "all_online_pressure_inside_declared_1p25_to_3p25_MPa": true,
+  "all_online_S_inside_closed_unit_interval": true,
+  "minimum_distance_to_solver_eta_bounds": 0.167786519591135,
+  "minimum_distance_to_pressure_bounds_MPa": 0.06092757858116693,
+  "selected_support_convex_hull_test_on_eta_1_to_eta_3": {
+    "available": true,
+    "inside_fraction": 1.0,
+    "max_inequality": -0.0009085914427187092
+  }
+}

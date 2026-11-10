@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "support_selection_completed": true,
+  "selection_used_flow": false,
+  "accepted_steps": 92,
+  "space_time_states": 552,
+  "phase_state_mismatches": 0,
+  "phase_event_identity": true,
+  "max_mage_scaled_residual": 4.3875028314472564e-07
+}
