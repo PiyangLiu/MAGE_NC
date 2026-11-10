@@ -1,0 +1,6 @@
+{
+  "case": "Supplementary Note 5.1 gas--brine",
+  "quick": true,
+  "used_bundled_authoritative_outputs": true,
+  "reason": "PyTorch is not installed in this environment"
+}

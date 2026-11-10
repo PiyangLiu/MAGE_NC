@@ -1,0 +1,11 @@
+{
+  "tau": 0.65,
+  "shared_phi_offset": 3.816174331569027,
+  "supports_per_phase": 1280,
+  "supports_per_phase_by_branch": {
+    "liquid": 1280,
+    "vapor": 1280
+  },
+  "source": "fresh validation-greedy selector",
+  "flow_trajectory_used_for_support_selection": false
+}
