@@ -1,0 +1,48 @@
+{
+    "schema_version":  "1.0",
+    "case":  "nonisothermal_vle",
+    "temperature_domain_K":  [
+                                 295,
+                                 350
+                             ],
+    "pressure_domain_MPa":  [
+                                0.5,
+                                7
+                            ],
+    "holdout_bands_K":  [
+                            [
+                                304.5,
+                                305.5
+                            ],
+                            [
+                                324.5,
+                                325.5
+                            ],
+                            [
+                                344.5,
+                                345.5
+                            ]
+                        ],
+    "selected_supports_per_phase":  {
+                                        "liquid":  1592,
+                                        "vapor":  1392
+                                    },
+    "selected_tau_bar_per_phase":  {
+                                       "liquid":  0.125,
+                                       "vapor":  0.125
+                                   },
+    "candidate_count_per_phase":  12000,
+    "validation_count_per_phase":  5000,
+    "independent_test_count_per_phase":  2688,
+    "evaluation_temperature_count":  14,
+    "reference_coexistence_states":  574,
+    "converged_MAGE_states":  557,
+    "algorithm":  "common validation-error greedy; first nested prefix meeting validation thresholds",
+    "source_tables":  [
+                          "figure4_vle_errors.csv",
+                          "figure4_thermo_errors.csv",
+                          "figure4_curves.csv",
+                          "figure4_coverage.csv",
+                          "figure4_energy_errors.csv"
+                      ]
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_temperatures_exclude_all_holdout_bands": true,
+  "validation_temperatures_exclude_all_holdout_bands": true,
+  "candidate_pools_contain_both_state_sources": true,
+  "selected_supports_follow_declared_rule": true,
+  "all_state_errors_finite": true,
+  "all_selected_model_vle_states_converged": true,
+  "selected_supports_per_phase": {
+    "liquid": 1592,
+    "vapor": 1392
+  },
+  "selected_tau_bar_per_phase": {
+    "liquid": 0.125,
+    "vapor": 0.125
+  },
+  "all_required_checks_pass": true
+}
