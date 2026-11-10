@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "supplementary_note": "7",
+  "experiment": "isometric embedding control",
+  "authoritative_files": [
+    "results/embedding_results.csv",
+    "results/embedding_trace.json"
+  ],
+  "ambient_dimensions": [2, 3, 5, 8, 10],
+  "intrinsic_dimension": 2,
+  "selection_tolerance": 0.05,
+  "tau_dimensionless": 0.0006
+}

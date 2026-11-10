@@ -1,0 +1,52 @@
+{
+  "support_selection": "fresh validation-error greedy; flow was downstream only",
+  "supports_per_phase": {
+    "liquid": 1280,
+    "vapor": 1280
+  },
+  "tau": 0.65,
+  "shared_phi_offset": 3.816174331569027,
+  "MAGE_solver": {
+    "runtime_s": 4.9125282764434814,
+    "accepted_steps": 92,
+    "online_local_flash_calls": 0,
+    "online_TPD_calls": 0,
+    "online_explicit_phase_switches": 0,
+    "online_MAGE_branch_state_evaluations": 24604,
+    "global_residual_evaluations": 1850,
+    "offline_PR_flash_calls": 9,
+    "offline_PR_EOS_evaluations": 378,
+    "max_scaled_residual": 4.3875028314472564e-07,
+    "max_component_relative_mass_balance_error": 1.8166747930026994e-12,
+    "phase_events": 24
+  },
+  "PR_solver": {
+    "runtime_s": 16.033854961395264,
+    "accepted_steps": 92,
+    "preprocessing_flash_calls": 9,
+    "preprocessing_PR_EOS_evaluations": 369,
+    "online_local_flash_requests_in_global_residual": 66564,
+    "online_executed_local_flash_calls_with_exact_cache": 14826,
+    "online_PR_EOS_evaluations": 288057,
+    "global_residual_evaluations": 11094,
+    "exact_flash_cache_hits": 52290,
+    "mean_flash_iterations": 8.015234243343444,
+    "max_scaled_residual": 1.051594007606127e-08,
+    "max_component_relative_mass_balance_error": 8.933625303518886e-09,
+    "phase_events": 24
+  },
+  "comparison": {
+    "space_time_states": 552,
+    "phase_state_match_fraction": 1.0,
+    "phase_state_mismatches": 0,
+    "phase_events_MAGE": 24,
+    "phase_events_PR": 24,
+    "phase_event_step_cell_transition_identity": true,
+    "pressure_relative_error_mean": 0.0005444234152144548,
+    "pressure_relative_error_max": 0.006502961893797132,
+    "composition_absolute_error_mean": 0.0006829409275863538,
+    "composition_absolute_error_max": 0.05484318499419022,
+    "gas_saturation_absolute_error_mean": 0.0012274444993576798,
+    "gas_saturation_absolute_error_max": 0.017451921631190675
+  }
+}

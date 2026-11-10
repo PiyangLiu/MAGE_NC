@@ -1,0 +1,32 @@
+{
+  "case": "Supplementary Note 5.1 gas-brine validation",
+  "recalculation_date": "2026-11-03",
+  "command": "python code/cases/gas_brine_validation.py --output-dir case_results/verified_brine",
+  "environment": {
+    "conda_environment": "PINN",
+    "python_executable": "G:/developer/anconda/envs/PINN/python.exe",
+    "pytorch_version": "2.11.0+cu128",
+    "cuda_available": true,
+    "runtime_note": "The archived result was recomputed with the Windows Anaconda runtime; no compatibility switch is required for the published result."
+  },
+  "recalculated_summary": {
+    "states": 3584,
+    "independent_mothers": 512,
+    "support_count_liquid": 1376,
+    "support_count_gas": 368,
+    "KKT_success": 0.9614955357142857,
+    "beta_MAE": 0.00017609931639213928,
+    "rho_mean_rel": 0.003466070101008096,
+    "h_mean_rel": 0.0018601937152004856,
+    "liquid_H2_mean_rel": 0.17062573402705933,
+    "gas_salt_max": 0.0
+  },
+  "manuscript_authoritative_summary": {
+    "states_equal": true,
+    "independent_mothers_equal": true,
+    "support_counts_equal": true,
+    "KKT_success_equal": true,
+    "maximum_absolute_difference_in_reported_scalar_metrics": 0.0,
+    "interpretation": "The manifest records the current manuscript-authoritative 1,376/368-support result. The KKT statistics and all reported thermodynamic errors are evaluated over all 3,584 generated states, including the 138 states that fail the KKT checks."
+  }
+}
