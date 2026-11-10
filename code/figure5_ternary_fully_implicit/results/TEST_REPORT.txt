@@ -1,0 +1,16 @@
+PASS  both_solvers_complete_92_steps
+PASS  MAGE_has_zero_online_local_flash
+PASS  MAGE_has_zero_online_TPD
+PASS  MAGE_has_zero_explicit_phase_switches
+PASS  PR_executes_nested_local_flash
+PASS  phase_state_match_is_100_percent
+PASS  all_24_phase_events_identical
+PASS  probe_complete_phase_cycle
+PASS  each_cell_has_four_phase_events
+PASS  MAGE_residual_within_tolerance
+PASS  PR_residual_within_tolerance
+PASS  mass_balance_within_tolerance
+PASS  pressure_monotone_both_solvers
+PASS  mean_solution_errors_within_declared_limits
+
+14/14 checks passed

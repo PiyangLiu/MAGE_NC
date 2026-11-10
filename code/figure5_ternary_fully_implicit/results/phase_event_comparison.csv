@@ -1,0 +1,25 @@
+accepted_step,time_s,stage,cell,from_phase,to_phase,S_mage,S_pr,_merge
+1,500.0,two-phase injection,1,liquid,two,0.0020032101633752,0.001509134799259,both
+4,1887.5,two-phase injection,2,liquid,two,0.0841022392694007,0.0850302810995941,both
+6,2900.0,two-phase injection,3,liquid,two,0.0700983908297328,0.0686871844772705,both
+8,3912.5,two-phase injection,4,liquid,two,0.0860715654160081,0.0811147864203177,both
+9,4595.9375,two-phase injection,5,liquid,two,0.0698234533374871,0.0619326575943917,both
+10,5345.9375,two-phase injection,6,liquid,two,0.1318043273839205,0.1209374621024442,both
+21,13000.0,liquid wash,1,two,liquid,7.3978228099695605e-19,0.0,both
+23,14175.0,liquid wash,2,two,liquid,3.1220546326751672e-18,0.0,both
+25,15525.0,liquid wash,3,two,liquid,7.73004580145016e-23,0.0,both
+28,17700.0,liquid wash,4,two,liquid,1.6421809885638685e-18,0.0,both
+33,21450.0,liquid wash,5,two,liquid,3.8035048191979255e-08,0.0,both
+41,27075.0,liquid wash,6,two,liquid,3.2640808892311696e-07,0.0,both
+47,30500.0,vapour-rich injection,1,liquid,two,0.0882006063712327,0.0883266321839328,both
+49,31250.0,vapour-rich injection,2,liquid,two,0.0107587121990051,0.0070165011802609,both
+52,32375.0,vapour-rich injection,3,liquid,two,0.0550520356735846,0.0503176400063793,both
+54,33125.0,vapour-rich injection,4,liquid,two,0.0288737175222639,0.0200691766135182,both
+56,34006.25,vapour-rich injection,5,liquid,two,0.0844548016913067,0.0775854663572023,both
+57,34689.6875,vapour-rich injection,6,liquid,two,0.1624848293435707,0.1553539985986132,both
+75,48189.6875,vapour-rich injection,1,two,vapor,0.9999999650388094,1.0,both
+81,52689.6875,vapour-rich injection,2,two,vapor,0.999999962633344,1.0,both
+85,55689.6875,vapour-rich injection,3,two,vapor,0.9999999641144504,1.0,both
+87,57189.6875,vapour-rich injection,4,two,vapor,1.0,1.0,both
+88,57939.6875,vapour-rich injection,5,two,vapor,0.9999999999999998,1.0,both
+89,58689.6875,vapour-rich injection,6,two,vapor,0.9999999988130408,1.0,both

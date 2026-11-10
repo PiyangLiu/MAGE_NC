@@ -1,0 +1,10 @@
+kind,label,P_MPa,z_CH4,z_CO2,z_nC4,map_residual,PR_phase,PR_S
+boundary,two-phase injection,3.2,0.15,0.15,0.7,1.2989609388114332e-12,two,0.4894449247072678
+boundary,liquid wash,3.2,0.04,0.08,0.88,1.7178602978095027e-08,liquid,0.0
+boundary,vapour-rich injection,3.2,0.65,0.2,0.15,9.159339953157541e-14,vapor,1.0
+initial,cell 1,3.1,0.04,0.08,0.88,3.200582782836395e-08,liquid,0.0
+initial,cell 2,2.9,0.04,0.08,0.88,1.6536040868179978e-08,liquid,0.0
+initial,cell 3,2.7,0.04,0.08,0.88,6.029311902870203e-08,liquid,0.0
+initial,cell 4,2.5,0.04,0.08,0.88,5.257155874346792e-08,liquid,0.0
+initial,cell 5,2.3,0.04,0.08,0.88,6.36421436705477e-08,liquid,0.0
+initial,cell 6,2.1,0.04,0.08,0.88,4.432087068316024e-11,liquid,0.0

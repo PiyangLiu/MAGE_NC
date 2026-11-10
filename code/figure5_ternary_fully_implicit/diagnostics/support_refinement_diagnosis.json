@@ -1,0 +1,36 @@
+{
+  "diagnosis": "The 512-support MAGE branch representation had two phase-label discrepancies relative to the fully implicit PR global solution, both at phase-boundary states (one near Sg=0 and one near Sg=1). The complementarity formulation remained converged; the discrepancy was traced to finite-support branch resolution.",
+  "refinement": {
+    "supports_per_phase": 1280,
+    "tau": 0.5,
+    "shared_phi_offset": 3.0747704599977954,
+    "support_selection": "first 512 supports from the frozen teacher model, extended to 1280 by greedy maximum convex support-plane gap over the declared candidate pool",
+    "flow_trajectory_used_for_support_selection": false,
+    "candidate_pool_counts": {
+      "liquid": 1664,
+      "vapor": 1966
+    },
+    "candidate_pool_reconstruction": {
+      "liquid": {
+        "phi_relative_mean": 0.00019422542681472846,
+        "phi_relative_max": 0.0010638140721875532,
+        "gradient_relative_mean": 0.00045653863983983437,
+        "gradient_relative_max": 0.004506804755418858,
+        "concentration_relative_mean": 0.000758203725944671,
+        "concentration_relative_max": 0.0031868538595803656
+      },
+      "vapor": {
+        "phi_relative_mean": 0.00031019949987201855,
+        "phi_relative_max": 0.001063814072187481,
+        "gradient_relative_mean": 0.003918983255918719,
+        "gradient_relative_max": 0.026483286514230486,
+        "concentration_relative_mean": 0.005296485325957582,
+        "concentration_relative_max": 0.031411548822889476
+      }
+    }
+  },
+  "final_phase_match_fraction": 1.0,
+  "final_phase_mismatches": 0,
+  "final_phase_event_identity": true,
+  "flow_trajectory_used_for_refinement": false
+}
