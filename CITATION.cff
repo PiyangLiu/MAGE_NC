@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "MAGE-NC reproducibility repository"
+message: "Please cite the associated manuscript and this repository when reusing the code or data."
+type: software
+authors:
+  - name: "MAGE-NC authors"
+date-released: 2026-11-02
+version: 1.0.0
+repository-code: "https://github.com/<YOUR-USERNAME>/mage-nc-reproducibility"
+license: MIT
