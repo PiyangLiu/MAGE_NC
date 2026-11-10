@@ -1,0 +1,141 @@
+{
+  "benchmark": "six-component 300 K noncritical grand-canonical PR EOS inversion",
+  "components": [
+    "CH4",
+    "C2H6",
+    "C3H8",
+    "nC4",
+    "nC5",
+    "nC6"
+  ],
+  "N": 6,
+  "n_heldout": 1000,
+  "phase_agreement_counts": {
+    "PR_warm": 1000,
+    "PR_cold": 1000,
+    "PR_analytic_warm": 1000,
+    "PR_analytic_cold": 1000,
+    "MAGE": 1000
+  },
+  "reference_stable_liquid_count": 499,
+  "reference_stable_vapor_count": 501,
+  "min_absolute_phase_pressure_margin_MPa": 0.06927317510939436,
+  "liquid_Z_range": [
+    0.0733347446052369,
+    0.11611060212824129
+  ],
+  "vapor_Z_range": [
+    0.887336824623863,
+    0.9119763801276375
+  ],
+  "PR_warm_vs_independent_Python_reference": {
+    "pressure_relative_mean": 2.1605429716470703e-11,
+    "pressure_relative_max": 4.348460382042494e-10,
+    "component_density_relative_mean": 4.58064273651075e-12,
+    "component_density_relative_max": 9.308535991504537e-11,
+    "compressibility_Z_absolute_max": 4.2213316175931936e-11
+  },
+  "PR_cold_vs_independent_Python_reference": {
+    "pressure_relative_mean": 2.7248825336277547e-11,
+    "pressure_relative_max": 4.754537080857322e-10,
+    "component_density_relative_mean": 4.95831545145894e-12,
+    "component_density_relative_max": 9.025920705623118e-11,
+    "compressibility_Z_absolute_max": 3.820485594552281e-11
+  },
+  "PR_analytic_warm_vs_Python_reference": {
+    "pressure_relative_mean": 1.4585607756601157e-11,
+    "pressure_relative_max": 4.94369273004189e-10,
+    "component_density_relative_mean": 1.5412207616702197e-12,
+    "component_density_relative_max": 6.273328108003372e-11,
+    "compressibility_Z_absolute_max": 3.8922545742003933e-11
+  },
+  "PR_analytic_cold_vs_Python_reference": {
+    "pressure_relative_mean": 1.3209842440116948e-11,
+    "pressure_relative_max": 5.031456999139842e-10,
+    "component_density_relative_mean": 6.330437688132979e-13,
+    "component_density_relative_max": 6.253523958141808e-11,
+    "compressibility_Z_absolute_max": 3.8299544091735527e-11
+  },
+  "MAGE_vs_independent_Python_PR_reference": {
+    "pressure_relative_mean": 0.00018104291764085818,
+    "pressure_relative_max": 0.0005135544487022702,
+    "component_density_relative_mean": 0.002589825564244957,
+    "component_density_relative_max": 0.05412663946884002,
+    "compressibility_Z_absolute_max": 0.005022501543302971
+  },
+  "PR_max_chemical_potential_residual": 4.983702339700358e-11,
+  "PR_analytic_total_Newton_steps_per_query": {
+    "median": 7.0,
+    "min": 4,
+    "max": 8
+  },
+  "PR_analytic_total_EOS_evaluations_per_query": {
+    "median": 16.0,
+    "min": 10,
+    "max": 18
+  },
+  "PR_fd_total_EOS_evaluations_per_query": {
+    "median": 58.0,
+    "min": 34,
+    "max": 66
+  },
+  "PR_analytic_cold_EOS_evaluations_median": 14.0,
+  "MAGE_supports_per_phase": 128,
+  "five_repeats_us_per_query": {
+    "PR_analytic_warm": [
+      7.1136624333272875,
+      7.938525299997915,
+      7.326122533330211,
+      6.866696400000667,
+      8.103364700006447
+    ],
+    "PR_analytic_cold": [
+      7.021099566660874,
+      8.171575133330105,
+      7.246110233328788,
+      6.52135413333023,
+      7.413631933331999
+    ],
+    "PR_fd_warm": [
+      14.064728033334479,
+      14.409685399997823,
+      17.972265833327583,
+      12.932516099999702,
+      13.74792519999725
+    ],
+    "PR_fd_cold": [
+      13.58597019999858,
+      13.684065500001452,
+      13.023636466664357,
+      13.512633533332519,
+      12.842924466667682
+    ],
+    "MAGE_direct": [
+      1.9009116999995967,
+      1.9155870000001112,
+      1.8015379666697602,
+      2.302791166668309,
+      1.81817753333083
+    ]
+  },
+  "median_us_per_query": {
+    "PR_analytic_warm": 7.326122533330211,
+    "PR_analytic_cold": 7.246110233328788,
+    "PR_fd_warm": 14.064728033334479,
+    "PR_fd_cold": 13.512633533332519,
+    "MAGE_direct": 1.9009116999995967
+  },
+  "speedup_MAGE_vs_fastest_PR": 3.811913111656015,
+  "offline_PR_reference_generation_s": 24.503654402999928,
+  "offline_training_reference_generation_s": 12.385114767999994,
+  "offline_support_selection_s": 0.27202991800004384,
+  "idealized_offline_amortization_query_count": 2367946.5986302085,
+  "idealized_full_experiment_amortization_query_count": 4635128.922997878,
+  "limitations": [
+    "not ordinary PTz flash; difficult fugacity-specified two-branch inverse",
+    "PR used analytic cubic roots and damped Newton, including analytical PR fugacity Jacobians and continuation",
+    "MAGE trained on a restricted two-parameter manifold in six-dimensional chemical space",
+    "all labels evaluated on 800 held-out states; no near-critical state selected",
+    "hardware/runtime and offline database generation affect amortization"
+  ]
+}

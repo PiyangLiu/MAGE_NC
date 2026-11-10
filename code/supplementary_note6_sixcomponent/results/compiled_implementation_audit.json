@@ -1,0 +1,15 @@
+{
+  "MAGE_CPP_vs_Python": {
+    "liquid": {
+      "max_relative_pressure_discrepancy": 5.910712104095203e-16,
+      "max_relative_component_density_discrepancy": 1.830868730505247e-12
+    },
+    "vapor": {
+      "max_relative_pressure_discrepancy": 5.089078593062323e-16,
+      "max_relative_component_density_discrepancy": 1.847295967287143e-12
+    }
+  },
+  "PR_analytic_Jacobian_test_states": 48,
+  "PR_Jacobian_largest_element_absolute_error": 2.1902881591762124e-09,
+  "PR_Jacobian_max_relative_Frobenius_discrepancy": 1.852739208865973e-09
+}

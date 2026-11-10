@@ -1,0 +1,1688 @@
+{
+  "PR_derivative_audits": {
+    "liquid": {
+      "Z": 0.0926287179263945,
+      "max_gradient_relative_discrepancy": 2.8292327056897213e-10
+    },
+    "vapour": {
+      "Z": 0.9116508565209883,
+      "max_gradient_relative_discrepancy": 6.747231351393944e-11
+    }
+  },
+  "selections": {
+    "liquid": [
+      {
+        "ambient_Nc": 2,
+        "indices": [
+          205,
+          81,
+          405,
+          350,
+          261,
+          105,
+          101,
+          215,
+          250,
+          288,
+          229,
+          280,
+          15
+        ],
+        "trace": [
+          {
+            "M": 1,
+            "max_validation_error": 0.4948416504453551,
+            "mean_validation_error": 0.22595267320915652,
+            "max_potential_error_normalized": 0.40847198997975526,
+            "max_gradient_error_relative": 0.4948416504453551
+          },
+          {
+            "M": 2,
+            "max_validation_error": 0.3774464391220788,
+            "mean_validation_error": 0.16731824836202952,
+            "max_potential_error_normalized": 0.26461524964864347,
+            "max_gradient_error_relative": 0.3774464391220788
+          },
+          {
+            "M": 3,
+            "max_validation_error": 0.23116617871236894,
+            "mean_validation_error": 0.1061266370506049,
+            "max_potential_error_normalized": 0.08345356258944352,
+            "max_gradient_error_relative": 0.23116617871236894
+          },
+          {
+            "M": 4,
+            "max_validation_error": 0.2200085820431327,
+            "mean_validation_error": 0.08169017251395996,
+            "max_potential_error_normalized": 0.06553317974944736,
+            "max_gradient_error_relative": 0.2200085820431327
+          },
+          {
+            "M": 5,
+            "max_validation_error": 0.11999203014070059,
+            "mean_validation_error": 0.053374105306507984,
+            "max_potential_error_normalized": 0.027838575346303136,
+            "max_gradient_error_relative": 0.11999203014070059
+          },
+          {
+            "M": 6,
+            "max_validation_error": 0.10499658371634825,
+            "mean_validation_error": 0.04204530896534175,
+            "max_potential_error_normalized": 0.018404199267386526,
+            "max_gradient_error_relative": 0.10499658371634825
+          },
+          {
+            "M": 7,
+            "max_validation_error": 0.09980468699404257,
+            "mean_validation_error": 0.03568820942551624,
+            "max_potential_error_normalized": 0.01850062074728015,
+            "max_gradient_error_relative": 0.09980468699404257
+          },
+          {
+            "M": 8,
+            "max_validation_error": 0.09660356456327017,
+            "mean_validation_error": 0.030396551931181025,
+            "max_potential_error_normalized": 0.017736534705680616,
+            "max_gradient_error_relative": 0.09660356456327017
+          },
+          {
+            "M": 9,
+            "max_validation_error": 0.06526179527332306,
+            "mean_validation_error": 0.024555606232985663,
+            "max_potential_error_normalized": 0.011731672588996834,
+            "max_gradient_error_relative": 0.06526179527332306
+          },
+          {
+            "M": 10,
+            "max_validation_error": 0.05945297734282596,
+            "mean_validation_error": 0.02214955636859998,
+            "max_potential_error_normalized": 0.009200003779651767,
+            "max_gradient_error_relative": 0.05945297734282596
+          },
+          {
+            "M": 11,
+            "max_validation_error": 0.0547859077324323,
+            "mean_validation_error": 0.020715491223317523,
+            "max_potential_error_normalized": 0.008539312915178723,
+            "max_gradient_error_relative": 0.0547859077324323
+          },
+          {
+            "M": 12,
+            "max_validation_error": 0.05330707729885606,
+            "mean_validation_error": 0.01879531251514472,
+            "max_potential_error_normalized": 0.008593738661119697,
+            "max_gradient_error_relative": 0.05330707729885606
+          },
+          {
+            "M": 13,
+            "max_validation_error": 0.04753836649185297,
+            "mean_validation_error": 0.017723101043460403,
+            "max_potential_error_normalized": 0.00864380549402097,
+            "max_gradient_error_relative": 0.04753836649185297
+          }
+        ]
+      },
+      {
+        "ambient_Nc": 3,
+        "indices": [
+          205,
+          81,
+          405,
+          350,
+          261,
+          105,
+          101,
+          215,
+          250,
+          288,
+          229,
+          280,
+          15
+        ],
+        "trace": [
+          {
+            "M": 1,
+            "max_validation_error": 0.49484165044535505,
+            "mean_validation_error": 0.2259526732091565,
+            "max_potential_error_normalized": 0.40847198997975537,
+            "max_gradient_error_relative": 0.49484165044535505
+          },
+          {
+            "M": 2,
+            "max_validation_error": 0.3774464391220787,
+            "mean_validation_error": 0.16731824836202952,
+            "max_potential_error_normalized": 0.26461524964864347,
+            "max_gradient_error_relative": 0.3774464391220787
+          },
+          {
+            "M": 3,
+            "max_validation_error": 0.23116617871236894,
+            "mean_validation_error": 0.1061266370506049,
+            "max_potential_error_normalized": 0.08345356258944352,
+            "max_gradient_error_relative": 0.23116617871236894
+          },
+          {
+            "M": 4,
+            "max_validation_error": 0.22000858204313276,
+            "mean_validation_error": 0.08169017251395988,
+            "max_potential_error_normalized": 0.06553317974944736,
+            "max_gradient_error_relative": 0.22000858204313276
+          },
+          {
+            "M": 5,
+            "max_validation_error": 0.11999203014070045,
+            "mean_validation_error": 0.05337410530650791,
+            "max_potential_error_normalized": 0.027838575346302675,
+            "max_gradient_error_relative": 0.11999203014070045
+          },
+          {
+            "M": 6,
+            "max_validation_error": 0.10499658371634825,
+            "mean_validation_error": 0.042045308965341636,
+            "max_potential_error_normalized": 0.01840419926738658,
+            "max_gradient_error_relative": 0.10499658371634825
+          },
+          {
+            "M": 7,
+            "max_validation_error": 0.09980468699404313,
+            "mean_validation_error": 0.03568820942551611,
+            "max_potential_error_normalized": 0.018500620747280205,
+            "max_gradient_error_relative": 0.09980468699404313
+          },
+          {
+            "M": 8,
+            "max_validation_error": 0.09660356456327014,
+            "mean_validation_error": 0.030396551931180748,
+            "max_potential_error_normalized": 0.017736534705680616,
+            "max_gradient_error_relative": 0.09660356456327014
+          },
+          {
+            "M": 9,
+            "max_validation_error": 0.06526179527332304,
+            "mean_validation_error": 0.024555606232985427,
+            "max_potential_error_normalized": 0.011731672588996604,
+            "max_gradient_error_relative": 0.06526179527332304
+          },
+          {
+            "M": 10,
+            "max_validation_error": 0.05945297734282598,
+            "mean_validation_error": 0.022149556368599707,
+            "max_potential_error_normalized": 0.009200003779651534,
+            "max_gradient_error_relative": 0.05945297734282598
+          },
+          {
+            "M": 11,
+            "max_validation_error": 0.054785907732431006,
+            "mean_validation_error": 0.020715491223317208,
+            "max_potential_error_normalized": 0.00853931291517849,
+            "max_gradient_error_relative": 0.054785907732431006
+          },
+          {
+            "M": 12,
+            "max_validation_error": 0.05330707729885574,
+            "mean_validation_error": 0.01879531251514435,
+            "max_potential_error_normalized": 0.008593738661119697,
+            "max_gradient_error_relative": 0.05330707729885574
+          },
+          {
+            "M": 13,
+            "max_validation_error": 0.04753836649185304,
+            "mean_validation_error": 0.017723101043459963,
+            "max_potential_error_normalized": 0.00864380549402097,
+            "max_gradient_error_relative": 0.04753836649185304
+          }
+        ]
+      },
+      {
+        "ambient_Nc": 5,
+        "indices": [
+          205,
+          81,
+          405,
+          350,
+          261,
+          105,
+          101,
+          215,
+          250,
+          288,
+          229,
+          280,
+          15
+        ],
+        "trace": [
+          {
+            "M": 1,
+            "max_validation_error": 0.49484165044535505,
+            "mean_validation_error": 0.2259526732091565,
+            "max_potential_error_normalized": 0.40847198997975487,
+            "max_gradient_error_relative": 0.49484165044535505
+          },
+          {
+            "M": 2,
+            "max_validation_error": 0.3774464391220788,
+            "mean_validation_error": 0.1673182483620295,
+            "max_potential_error_normalized": 0.2646152496486439,
+            "max_gradient_error_relative": 0.3774464391220788
+          },
+          {
+            "M": 3,
+            "max_validation_error": 0.23116617871236889,
+            "mean_validation_error": 0.1061266370506049,
+            "max_potential_error_normalized": 0.0834535625894433,
+            "max_gradient_error_relative": 0.23116617871236889
+          },
+          {
+            "M": 4,
+            "max_validation_error": 0.22000858204313292,
+            "mean_validation_error": 0.08169017251395996,
+            "max_potential_error_normalized": 0.06553317974944724,
+            "max_gradient_error_relative": 0.22000858204313292
+          },
+          {
+            "M": 5,
+            "max_validation_error": 0.11999203014070038,
+            "mean_validation_error": 0.053374105306508,
+            "max_potential_error_normalized": 0.027838575346303136,
+            "max_gradient_error_relative": 0.11999203014070038
+          },
+          {
+            "M": 6,
+            "max_validation_error": 0.1049965837163484,
+            "mean_validation_error": 0.04204530896534171,
+            "max_potential_error_normalized": 0.01840419926738664,
+            "max_gradient_error_relative": 0.1049965837163484
+          },
+          {
+            "M": 7,
+            "max_validation_error": 0.09980468699404349,
+            "mean_validation_error": 0.035688209425516315,
+            "max_potential_error_normalized": 0.018500620747280323,
+            "max_gradient_error_relative": 0.09980468699404349
+          },
+          {
+            "M": 8,
+            "max_validation_error": 0.09660356456327028,
+            "mean_validation_error": 0.030396551931180963,
+            "max_potential_error_normalized": 0.017736534705680616,
+            "max_gradient_error_relative": 0.09660356456327028
+          },
+          {
+            "M": 9,
+            "max_validation_error": 0.06526179527332299,
+            "mean_validation_error": 0.02455560623298554,
+            "max_potential_error_normalized": 0.011731672588996604,
+            "max_gradient_error_relative": 0.06526179527332299
+          },
+          {
+            "M": 10,
+            "max_validation_error": 0.05945297734282611,
+            "mean_validation_error": 0.022149556368599752,
+            "max_potential_error_normalized": 0.00920000377965165,
+            "max_gradient_error_relative": 0.05945297734282611
+          },
+          {
+            "M": 11,
+            "max_validation_error": 0.05478590773243094,
+            "mean_validation_error": 0.020715491223317305,
+            "max_potential_error_normalized": 0.00853931291517849,
+            "max_gradient_error_relative": 0.05478590773243094
+          },
+          {
+            "M": 12,
+            "max_validation_error": 0.05330707729885578,
+            "mean_validation_error": 0.018795312515144436,
+            "max_potential_error_normalized": 0.008593738661119697,
+            "max_gradient_error_relative": 0.05330707729885578
+          },
+          {
+            "M": 13,
+            "max_validation_error": 0.04753836649185304,
+            "mean_validation_error": 0.01772310104346007,
+            "max_potential_error_normalized": 0.00864380549402097,
+            "max_gradient_error_relative": 0.04753836649185304
+          }
+        ]
+      },
+      {
+        "ambient_Nc": 8,
+        "indices": [
+          205,
+          81,
+          405,
+          350,
+          261,
+          105,
+          101,
+          215,
+          250,
+          288,
+          229,
+          280,
+          15
+        ],
+        "trace": [
+          {
+            "M": 1,
+            "max_validation_error": 0.49484165044535494,
+            "mean_validation_error": 0.22595267320915646,
+            "max_potential_error_normalized": 0.40847198997975465,
+            "max_gradient_error_relative": 0.49484165044535494
+          },
+          {
+            "M": 2,
+            "max_validation_error": 0.37744643912207876,
+            "mean_validation_error": 0.1673182483620295,
+            "max_potential_error_normalized": 0.2646152496486439,
+            "max_gradient_error_relative": 0.37744643912207876
+          },
+          {
+            "M": 3,
+            "max_validation_error": 0.231166178712369,
+            "mean_validation_error": 0.10612663705060492,
+            "max_potential_error_normalized": 0.08345356258944306,
+            "max_gradient_error_relative": 0.231166178712369
+          },
+          {
+            "M": 4,
+            "max_validation_error": 0.2200085820431334,
+            "mean_validation_error": 0.08169017251395998,
+            "max_potential_error_normalized": 0.06553317974944689,
+            "max_gradient_error_relative": 0.2200085820431334
+          },
+          {
+            "M": 5,
+            "max_validation_error": 0.11999203014070041,
+            "mean_validation_error": 0.053374105306508046,
+            "max_potential_error_normalized": 0.027838575346302904,
+            "max_gradient_error_relative": 0.11999203014070041
+          },
+          {
+            "M": 6,
+            "max_validation_error": 0.10499658371634833,
+            "mean_validation_error": 0.04204530896534175,
+            "max_potential_error_normalized": 0.018404199267386814,
+            "max_gradient_error_relative": 0.10499658371634833
+          },
+          {
+            "M": 7,
+            "max_validation_error": 0.09980468699404346,
+            "mean_validation_error": 0.03568820942551619,
+            "max_potential_error_normalized": 0.018500620747280438,
+            "max_gradient_error_relative": 0.09980468699404346
+          },
+          {
+            "M": 8,
+            "max_validation_error": 0.0966035645632705,
+            "mean_validation_error": 0.030396551931180994,
+            "max_potential_error_normalized": 0.017736534705680616,
+            "max_gradient_error_relative": 0.0966035645632705
+          },
+          {
+            "M": 9,
+            "max_validation_error": 0.065261795273323,
+            "mean_validation_error": 0.024555606232985503,
+            "max_potential_error_normalized": 0.011731672588996604,
+            "max_gradient_error_relative": 0.065261795273323
+          },
+          {
+            "M": 10,
+            "max_validation_error": 0.05945297734282578,
+            "mean_validation_error": 0.02214955636859976,
+            "max_potential_error_normalized": 0.009200003779651767,
+            "max_gradient_error_relative": 0.05945297734282578
+          },
+          {
+            "M": 11,
+            "max_validation_error": 0.054785907732431,
+            "mean_validation_error": 0.0207154912233173,
+            "max_potential_error_normalized": 0.00853931291517849,
+            "max_gradient_error_relative": 0.054785907732431
+          },
+          {
+            "M": 12,
+            "max_validation_error": 0.053307077298855914,
+            "mean_validation_error": 0.018795312515144415,
+            "max_potential_error_normalized": 0.008593738661119234,
+            "max_gradient_error_relative": 0.053307077298855914
+          },
+          {
+            "M": 13,
+            "max_validation_error": 0.04753836649185287,
+            "mean_validation_error": 0.01772310104346002,
+            "max_potential_error_normalized": 0.008643805494020738,
+            "max_gradient_error_relative": 0.04753836649185287
+          }
+        ]
+      },
+      {
+        "ambient_Nc": 10,
+        "indices": [
+          205,
+          81,
+          405,
+          350,
+          261,
+          105,
+          101,
+          215,
+          250,
+          288,
+          229,
+          280,
+          15
+        ],
+        "trace": [
+          {
+            "M": 1,
+            "max_validation_error": 0.4948416504453551,
+            "mean_validation_error": 0.22595267320915652,
+            "max_potential_error_normalized": 0.4084719899797559,
+            "max_gradient_error_relative": 0.4948416504453551
+          },
+          {
+            "M": 2,
+            "max_validation_error": 0.3774464391220788,
+            "mean_validation_error": 0.16731824836202955,
+            "max_potential_error_normalized": 0.2646152496486432,
+            "max_gradient_error_relative": 0.3774464391220788
+          },
+          {
+            "M": 3,
+            "max_validation_error": 0.23116617871236894,
+            "mean_validation_error": 0.10612663705060492,
+            "max_potential_error_normalized": 0.08345356258944375,
+            "max_gradient_error_relative": 0.23116617871236894
+          },
+          {
+            "M": 4,
+            "max_validation_error": 0.22000858204313248,
+            "mean_validation_error": 0.08169017251395985,
+            "max_potential_error_normalized": 0.06553317974944736,
+            "max_gradient_error_relative": 0.22000858204313248
+          },
+          {
+            "M": 5,
+            "max_validation_error": 0.11999203014070055,
+            "mean_validation_error": 0.05337410530650786,
+            "max_potential_error_normalized": 0.027838575346303136,
+            "max_gradient_error_relative": 0.11999203014070055
+          },
+          {
+            "M": 6,
+            "max_validation_error": 0.10499658371634825,
+            "mean_validation_error": 0.04204530896534157,
+            "max_potential_error_normalized": 0.01840419926738658,
+            "max_gradient_error_relative": 0.10499658371634825
+          },
+          {
+            "M": 7,
+            "max_validation_error": 0.09980468699404263,
+            "mean_validation_error": 0.0356882094255162,
+            "max_potential_error_normalized": 0.018500620747280205,
+            "max_gradient_error_relative": 0.09980468699404263
+          },
+          {
+            "M": 8,
+            "max_validation_error": 0.09660356456326981,
+            "mean_validation_error": 0.03039655193118094,
+            "max_potential_error_normalized": 0.017736534705680616,
+            "max_gradient_error_relative": 0.09660356456326981
+          },
+          {
+            "M": 9,
+            "max_validation_error": 0.06526179527332304,
+            "mean_validation_error": 0.024555606232985763,
+            "max_potential_error_normalized": 0.011731672588996604,
+            "max_gradient_error_relative": 0.06526179527332304
+          },
+          {
+            "M": 10,
+            "max_validation_error": 0.05945297734282625,
+            "mean_validation_error": 0.022149556368600096,
+            "max_potential_error_normalized": 0.00920000377965165,
+            "max_gradient_error_relative": 0.05945297734282625
+          },
+          {
+            "M": 11,
+            "max_validation_error": 0.05478590773243096,
+            "mean_validation_error": 0.02071549122331762,
+            "max_potential_error_normalized": 0.00853931291517849,
+            "max_gradient_error_relative": 0.05478590773243096
+          },
+          {
+            "M": 12,
+            "max_validation_error": 0.05330707729885618,
+            "mean_validation_error": 0.01879531251514464,
+            "max_potential_error_normalized": 0.008593738661119697,
+            "max_gradient_error_relative": 0.05330707729885618
+          },
+          {
+            "M": 13,
+            "max_validation_error": 0.04753836649185305,
+            "mean_validation_error": 0.017723101043460327,
+            "max_potential_error_normalized": 0.00864380549402097,
+            "max_gradient_error_relative": 0.04753836649185305
+          }
+        ]
+      }
+    ],
+    "vapour": [
+      {
+        "ambient_Nc": 2,
+        "indices": [
+          351,
+          437,
+          293,
+          277,
+          149,
+          324,
+          292,
+          227,
+          229,
+          151,
+          138,
+          259,
+          88,
+          331,
+          154,
+          284,
+          231,
+          87,
+          420,
+          199,
+          396,
+          7,
+          101,
+          120,
+          19,
+          70,
+          153
+        ],
+        "trace": [
+          {
+            "M": 1,
+            "max_validation_error": 0.45063115116943325,
+            "mean_validation_error": 0.1695130874653621,
+            "max_potential_error_normalized": 0.11575259696066809,
+            "max_gradient_error_relative": 0.45063115116943325
+          },
+          {
+            "M": 2,
+            "max_validation_error": 0.25739979203482205,
+            "mean_validation_error": 0.13756844695397938,
+            "max_potential_error_normalized": 0.08632835610812584,
+            "max_gradient_error_relative": 0.25739979203482205
+          },
+          {
+            "M": 3,
+            "max_validation_error": 0.25684680165691515,
+            "mean_validation_error": 0.12096820768666393,
+            "max_potential_error_normalized": 0.08676318328599199,
+            "max_gradient_error_relative": 0.25684680165691515
+          },
+          {
+            "M": 4,
+            "max_validation_error": 0.24448671058133153,
+            "mean_validation_error": 0.0999809938074705,
+            "max_potential_error_normalized": 0.07474489503362892,
+            "max_gradient_error_relative": 0.24448671058133153
+          },
+          {
+            "M": 5,
+            "max_validation_error": 0.1804504218156616,
+            "mean_validation_error": 0.08086510748827556,
+            "max_potential_error_normalized": 0.03050688960160051,
+            "max_gradient_error_relative": 0.1804504218156616
+          },
+          {
+            "M": 6,
+            "max_validation_error": 0.15560256669365555,
+            "mean_validation_error": 0.07188013613348916,
+            "max_potential_error_normalized": 0.030702414115102303,
+            "max_gradient_error_relative": 0.15560256669365555
+          },
+          {
+            "M": 7,
+            "max_validation_error": 0.14545281164317767,
+            "mean_validation_error": 0.06586700964867603,
+            "max_potential_error_normalized": 0.028268842446993177,
+            "max_gradient_error_relative": 0.14545281164317767
+          },
+          {
+            "M": 8,
+            "max_validation_error": 0.12887003553516757,
+            "mean_validation_error": 0.058828322536636155,
+            "max_potential_error_normalized": 0.028411565867359424,
+            "max_gradient_error_relative": 0.12887003553516757
+          },
+          {
+            "M": 9,
+            "max_validation_error": 0.12403935036593187,
+            "mean_validation_error": 0.053274669248295305,
+            "max_potential_error_normalized": 0.021172212250238857,
+            "max_gradient_error_relative": 0.12403935036593187
+          },
+          {
+            "M": 10,
+            "max_validation_error": 0.11935868845602723,
+            "mean_validation_error": 0.047950387823919666,
+            "max_potential_error_normalized": 0.018753167682057394,
+            "max_gradient_error_relative": 0.11935868845602723
+          },
+          {
+            "M": 11,
+            "max_validation_error": 0.11640599762733216,
+            "mean_validation_error": 0.04433086509115034,
+            "max_potential_error_normalized": 0.01885537982233159,
+            "max_gradient_error_relative": 0.11640599762733216
+          },
+          {
+            "M": 12,
+            "max_validation_error": 0.11498990662540912,
+            "mean_validation_error": 0.04266981816406506,
+            "max_potential_error_normalized": 0.017079982618752546,
+            "max_gradient_error_relative": 0.11498990662540912
+          },
+          {
+            "M": 13,
+            "max_validation_error": 0.09927586152327661,
+            "mean_validation_error": 0.037836111226413366,
+            "max_potential_error_normalized": 0.012907156461712631,
+            "max_gradient_error_relative": 0.09927586152327661
+          },
+          {
+            "M": 14,
+            "max_validation_error": 0.09687940447791905,
+            "mean_validation_error": 0.03599625513797347,
+            "max_potential_error_normalized": 0.012986631020052129,
+            "max_gradient_error_relative": 0.09687940447791905
+          },
+          {
+            "M": 15,
+            "max_validation_error": 0.08550629898333462,
+            "mean_validation_error": 0.03488475974787721,
+            "max_potential_error_normalized": 0.01306060680250852,
+            "max_gradient_error_relative": 0.08550629898333462
+          },
+          {
+            "M": 16,
+            "max_validation_error": 0.073491566661794,
+            "mean_validation_error": 0.0334805628903718,
+            "max_potential_error_normalized": 0.010961171242993216,
+            "max_gradient_error_relative": 0.073491566661794
+          },
+          {
+            "M": 17,
+            "max_validation_error": 0.0682549151018337,
+            "mean_validation_error": 0.032141556592086874,
+            "max_potential_error_normalized": 0.01076462300208168,
+            "max_gradient_error_relative": 0.0682549151018337
+          },
+          {
+            "M": 18,
+            "max_validation_error": 0.06810725325690398,
+            "mean_validation_error": 0.031106219318022,
+            "max_potential_error_normalized": 0.010712702828839791,
+            "max_gradient_error_relative": 0.06810725325690398
+          },
+          {
+            "M": 19,
+            "max_validation_error": 0.06348176177267735,
+            "mean_validation_error": 0.029545800007337242,
+            "max_potential_error_normalized": 0.009818425820967877,
+            "max_gradient_error_relative": 0.06348176177267735
+          },
+          {
+            "M": 20,
+            "max_validation_error": 0.05437905226328791,
+            "mean_validation_error": 0.028489959205461483,
+            "max_potential_error_normalized": 0.009873433558985132,
+            "max_gradient_error_relative": 0.05437905226328791
+          },
+          {
+            "M": 21,
+            "max_validation_error": 0.054004764799953094,
+            "mean_validation_error": 0.02725521246757864,
+            "max_potential_error_normalized": 0.009764058297132946,
+            "max_gradient_error_relative": 0.054004764799953094
+          },
+          {
+            "M": 22,
+            "max_validation_error": 0.053769688943839725,
+            "mean_validation_error": 0.02674985056198376,
+            "max_potential_error_normalized": 0.009813947095720723,
+            "max_gradient_error_relative": 0.053769688943839725
+          },
+          {
+            "M": 23,
+            "max_validation_error": 0.053712635883301704,
+            "mean_validation_error": 0.024695437903360908,
+            "max_potential_error_normalized": 0.009799707427621126,
+            "max_gradient_error_relative": 0.053712635883301704
+          },
+          {
+            "M": 24,
+            "max_validation_error": 0.05446380292183514,
+            "mean_validation_error": 0.023657978271651947,
+            "max_potential_error_normalized": 0.009108150209995638,
+            "max_gradient_error_relative": 0.05446380292183514
+          },
+          {
+            "M": 25,
+            "max_validation_error": 0.05289836601502741,
+            "mean_validation_error": 0.023378381923531085,
+            "max_potential_error_normalized": 0.009151928360858015,
+            "max_gradient_error_relative": 0.05289836601502741
+          },
+          {
+            "M": 26,
+            "max_validation_error": 0.05241738565575699,
+            "mean_validation_error": 0.022111410840114427,
+            "max_potential_error_normalized": 0.008406589358121738,
+            "max_gradient_error_relative": 0.05241738565575699
+          },
+          {
+            "M": 27,
+            "max_validation_error": 0.04910697046850401,
+            "mean_validation_error": 0.020517458471503616,
+            "max_potential_error_normalized": 0.007942393080847238,
+            "max_gradient_error_relative": 0.04910697046850401
+          }
+        ]
+      },
+      {
+        "ambient_Nc": 3,
+        "indices": [
+          351,
+          437,
+          293,
+          277,
+          149,
+          324,
+          292,
+          227,
+          229,
+          151,
+          138,
+          259,
+          88,
+          331,
+          154,
+          284,
+          231,
+          87,
+          420,
+          199,
+          396,
+          7,
+          101,
+          120,
+          19,
+          70,
+          153
+        ],
+        "trace": [
+          {
+            "M": 1,
+            "max_validation_error": 0.45063115116943325,
+            "mean_validation_error": 0.1695130874653621,
+            "max_potential_error_normalized": 0.1157525969606683,
+            "max_gradient_error_relative": 0.45063115116943325
+          },
+          {
+            "M": 2,
+            "max_validation_error": 0.2573997920348221,
+            "mean_validation_error": 0.13756844695397938,
+            "max_potential_error_normalized": 0.08632835610812584,
+            "max_gradient_error_relative": 0.2573997920348221
+          },
+          {
+            "M": 3,
+            "max_validation_error": 0.25684680165691504,
+            "mean_validation_error": 0.12096820768666393,
+            "max_potential_error_normalized": 0.08676318328599199,
+            "max_gradient_error_relative": 0.25684680165691504
+          },
+          {
+            "M": 4,
+            "max_validation_error": 0.24448671058133162,
+            "mean_validation_error": 0.09998099380747064,
+            "max_potential_error_normalized": 0.07474489503362892,
+            "max_gradient_error_relative": 0.24448671058133162
+          },
+          {
+            "M": 5,
+            "max_validation_error": 0.1804504218156616,
+            "mean_validation_error": 0.08086510748827581,
+            "max_potential_error_normalized": 0.03050688960160051,
+            "max_gradient_error_relative": 0.1804504218156616
+          },
+          {
+            "M": 6,
+            "max_validation_error": 0.15560256669365585,
+            "mean_validation_error": 0.07188013613348937,
+            "max_potential_error_normalized": 0.030702414115102303,
+            "max_gradient_error_relative": 0.15560256669365585
+          },
+          {
+            "M": 7,
+            "max_validation_error": 0.14545281164318086,
+            "mean_validation_error": 0.06586700964867614,
+            "max_potential_error_normalized": 0.028268842446992782,
+            "max_gradient_error_relative": 0.14545281164318086
+          },
+          {
+            "M": 8,
+            "max_validation_error": 0.12887003553516754,
+            "mean_validation_error": 0.05882832253663609,
+            "max_potential_error_normalized": 0.028411565867359028,
+            "max_gradient_error_relative": 0.12887003553516754
+          },
+          {
+            "M": 9,
+            "max_validation_error": 0.12403935036593215,
+            "mean_validation_error": 0.053274669248295235,
+            "max_potential_error_normalized": 0.021172212250239054,
+            "max_gradient_error_relative": 0.12403935036593215
+          },
+          {
+            "M": 10,
+            "max_validation_error": 0.11935868845602722,
+            "mean_validation_error": 0.0479503878239196,
+            "max_potential_error_normalized": 0.018753167682057394,
+            "max_gradient_error_relative": 0.11935868845602722
+          },
+          {
+            "M": 11,
+            "max_validation_error": 0.11640599762733092,
+            "mean_validation_error": 0.04433086509115033,
+            "max_potential_error_normalized": 0.01885537982233159,
+            "max_gradient_error_relative": 0.11640599762733092
+          },
+          {
+            "M": 12,
+            "max_validation_error": 0.11498990662540919,
+            "mean_validation_error": 0.04266981816406506,
+            "max_potential_error_normalized": 0.017079982618752546,
+            "max_gradient_error_relative": 0.11498990662540919
+          },
+          {
+            "M": 13,
+            "max_validation_error": 0.09927586152327694,
+            "mean_validation_error": 0.037836111226413366,
+            "max_potential_error_normalized": 0.012907156461712631,
+            "max_gradient_error_relative": 0.09927586152327694
+          },
+          {
+            "M": 14,
+            "max_validation_error": 0.09687940447791892,
+            "mean_validation_error": 0.035996255137973485,
+            "max_potential_error_normalized": 0.012986631020052129,
+            "max_gradient_error_relative": 0.09687940447791892
+          },
+          {
+            "M": 15,
+            "max_validation_error": 0.08550629898333455,
+            "mean_validation_error": 0.034884759747877206,
+            "max_potential_error_normalized": 0.01306060680250852,
+            "max_gradient_error_relative": 0.08550629898333455
+          },
+          {
+            "M": 16,
+            "max_validation_error": 0.07349156666179402,
+            "mean_validation_error": 0.03348056289037179,
+            "max_potential_error_normalized": 0.010961171242993216,
+            "max_gradient_error_relative": 0.07349156666179402
+          },
+          {
+            "M": 17,
+            "max_validation_error": 0.06825491510183344,
+            "mean_validation_error": 0.032141556592086895,
+            "max_potential_error_normalized": 0.01076462300208168,
+            "max_gradient_error_relative": 0.06825491510183344
+          },
+          {
+            "M": 18,
+            "max_validation_error": 0.06810725325690405,
+            "mean_validation_error": 0.031106219318022058,
+            "max_potential_error_normalized": 0.010712702828839791,
+            "max_gradient_error_relative": 0.06810725325690405
+          },
+          {
+            "M": 19,
+            "max_validation_error": 0.06348176177267752,
+            "mean_validation_error": 0.029545800007337343,
+            "max_potential_error_normalized": 0.009818425820967877,
+            "max_gradient_error_relative": 0.06348176177267752
+          },
+          {
+            "M": 20,
+            "max_validation_error": 0.05437905226328826,
+            "mean_validation_error": 0.028489959205461584,
+            "max_potential_error_normalized": 0.009873433558985132,
+            "max_gradient_error_relative": 0.05437905226328826
+          },
+          {
+            "M": 21,
+            "max_validation_error": 0.0540047647999516,
+            "mean_validation_error": 0.027255212467578706,
+            "max_potential_error_normalized": 0.009764058297132946,
+            "max_gradient_error_relative": 0.0540047647999516
+          },
+          {
+            "M": 22,
+            "max_validation_error": 0.05376968894384011,
+            "mean_validation_error": 0.026749850561983927,
+            "max_potential_error_normalized": 0.009813947095720723,
+            "max_gradient_error_relative": 0.05376968894384011
+          },
+          {
+            "M": 23,
+            "max_validation_error": 0.05371263588330189,
+            "mean_validation_error": 0.02469543790336107,
+            "max_potential_error_normalized": 0.009799707427621126,
+            "max_gradient_error_relative": 0.05371263588330189
+          },
+          {
+            "M": 24,
+            "max_validation_error": 0.05446380292183482,
+            "mean_validation_error": 0.023657978271652006,
+            "max_potential_error_normalized": 0.009108150209995638,
+            "max_gradient_error_relative": 0.05446380292183482
+          },
+          {
+            "M": 25,
+            "max_validation_error": 0.05289836601502749,
+            "mean_validation_error": 0.02337838192353114,
+            "max_potential_error_normalized": 0.009151928360858015,
+            "max_gradient_error_relative": 0.05289836601502749
+          },
+          {
+            "M": 26,
+            "max_validation_error": 0.052417385655757105,
+            "mean_validation_error": 0.02211141084011449,
+            "max_potential_error_normalized": 0.008406589358121937,
+            "max_gradient_error_relative": 0.052417385655757105
+          },
+          {
+            "M": 27,
+            "max_validation_error": 0.04910697046850427,
+            "mean_validation_error": 0.02051745847150362,
+            "max_potential_error_normalized": 0.007942393080847437,
+            "max_gradient_error_relative": 0.04910697046850427
+          }
+        ]
+      },
+      {
+        "ambient_Nc": 5,
+        "indices": [
+          351,
+          437,
+          293,
+          277,
+          149,
+          324,
+          292,
+          227,
+          229,
+          151,
+          138,
+          259,
+          88,
+          331,
+          154,
+          284,
+          231,
+          87,
+          420,
+          199,
+          396,
+          7,
+          101,
+          120,
+          19,
+          70,
+          153
+        ],
+        "trace": [
+          {
+            "M": 1,
+            "max_validation_error": 0.4506311511694332,
+            "mean_validation_error": 0.1695130874653621,
+            "max_potential_error_normalized": 0.11575259696066809,
+            "max_gradient_error_relative": 0.4506311511694332
+          },
+          {
+            "M": 2,
+            "max_validation_error": 0.2573997920348219,
+            "mean_validation_error": 0.1375684469539793,
+            "max_potential_error_normalized": 0.08632835610812584,
+            "max_gradient_error_relative": 0.2573997920348219
+          },
+          {
+            "M": 3,
+            "max_validation_error": 0.25684680165691526,
+            "mean_validation_error": 0.12096820768666378,
+            "max_potential_error_normalized": 0.08676318328599199,
+            "max_gradient_error_relative": 0.25684680165691526
+          },
+          {
+            "M": 4,
+            "max_validation_error": 0.24448671058133165,
+            "mean_validation_error": 0.09998099380747037,
+            "max_potential_error_normalized": 0.07474489503362892,
+            "max_gradient_error_relative": 0.24448671058133165
+          },
+          {
+            "M": 5,
+            "max_validation_error": 0.18045042181566143,
+            "mean_validation_error": 0.08086510748827543,
+            "max_potential_error_normalized": 0.03050688960160051,
+            "max_gradient_error_relative": 0.18045042181566143
+          },
+          {
+            "M": 6,
+            "max_validation_error": 0.15560256669365585,
+            "mean_validation_error": 0.07188013613348916,
+            "max_potential_error_normalized": 0.030702414115102303,
+            "max_gradient_error_relative": 0.15560256669365585
+          },
+          {
+            "M": 7,
+            "max_validation_error": 0.14545281164317794,
+            "mean_validation_error": 0.06586700964867599,
+            "max_potential_error_normalized": 0.028268842446993177,
+            "max_gradient_error_relative": 0.14545281164317794
+          },
+          {
+            "M": 8,
+            "max_validation_error": 0.12887003553516757,
+            "mean_validation_error": 0.058828322536636134,
+            "max_potential_error_normalized": 0.028411565867359028,
+            "max_gradient_error_relative": 0.12887003553516757
+          },
+          {
+            "M": 9,
+            "max_validation_error": 0.12403935036593189,
+            "mean_validation_error": 0.053274669248295325,
+            "max_potential_error_normalized": 0.021172212250238857,
+            "max_gradient_error_relative": 0.12403935036593189
+          },
+          {
+            "M": 10,
+            "max_validation_error": 0.1193586884560271,
+            "mean_validation_error": 0.04795038782391978,
+            "max_potential_error_normalized": 0.018753167682057394,
+            "max_gradient_error_relative": 0.1193586884560271
+          },
+          {
+            "M": 11,
+            "max_validation_error": 0.11640599762733202,
+            "mean_validation_error": 0.04433086509115043,
+            "max_potential_error_normalized": 0.01885537982233159,
+            "max_gradient_error_relative": 0.11640599762733202
+          },
+          {
+            "M": 12,
+            "max_validation_error": 0.1149899066254091,
+            "mean_validation_error": 0.04266981816406515,
+            "max_potential_error_normalized": 0.017079982618752546,
+            "max_gradient_error_relative": 0.1149899066254091
+          },
+          {
+            "M": 13,
+            "max_validation_error": 0.09927586152327653,
+            "mean_validation_error": 0.03783611122641336,
+            "max_potential_error_normalized": 0.012907156461712829,
+            "max_gradient_error_relative": 0.09927586152327653
+          },
+          {
+            "M": 14,
+            "max_validation_error": 0.09687940447791898,
+            "mean_validation_error": 0.03599625513797346,
+            "max_potential_error_normalized": 0.012986631020052328,
+            "max_gradient_error_relative": 0.09687940447791898
+          },
+          {
+            "M": 15,
+            "max_validation_error": 0.08550629898333476,
+            "mean_validation_error": 0.034884759747877185,
+            "max_potential_error_normalized": 0.013060606802508918,
+            "max_gradient_error_relative": 0.08550629898333476
+          },
+          {
+            "M": 16,
+            "max_validation_error": 0.07349156666179377,
+            "mean_validation_error": 0.0334805628903718,
+            "max_potential_error_normalized": 0.010961171242993414,
+            "max_gradient_error_relative": 0.07349156666179377
+          },
+          {
+            "M": 17,
+            "max_validation_error": 0.06825491510183368,
+            "mean_validation_error": 0.032141556592086874,
+            "max_potential_error_normalized": 0.01076462300208168,
+            "max_gradient_error_relative": 0.06825491510183368
+          },
+          {
+            "M": 18,
+            "max_validation_error": 0.06810725325690413,
+            "mean_validation_error": 0.03110621931802206,
+            "max_potential_error_normalized": 0.010712702828839791,
+            "max_gradient_error_relative": 0.06810725325690413
+          },
+          {
+            "M": 19,
+            "max_validation_error": 0.06348176177267875,
+            "mean_validation_error": 0.029545800007337288,
+            "max_potential_error_normalized": 0.009818425820967877,
+            "max_gradient_error_relative": 0.06348176177267875
+          },
+          {
+            "M": 20,
+            "max_validation_error": 0.05437905226328805,
+            "mean_validation_error": 0.02848995920546158,
+            "max_potential_error_normalized": 0.009873433558985132,
+            "max_gradient_error_relative": 0.05437905226328805
+          },
+          {
+            "M": 21,
+            "max_validation_error": 0.05400476479995167,
+            "mean_validation_error": 0.027255212467578702,
+            "max_potential_error_normalized": 0.009764058297132946,
+            "max_gradient_error_relative": 0.05400476479995167
+          },
+          {
+            "M": 22,
+            "max_validation_error": 0.05376968894383962,
+            "mean_validation_error": 0.026749850561983826,
+            "max_potential_error_normalized": 0.009813947095720723,
+            "max_gradient_error_relative": 0.05376968894383962
+          },
+          {
+            "M": 23,
+            "max_validation_error": 0.053712635883301704,
+            "mean_validation_error": 0.024695437903361005,
+            "max_potential_error_normalized": 0.009799707427621126,
+            "max_gradient_error_relative": 0.053712635883301704
+          },
+          {
+            "M": 24,
+            "max_validation_error": 0.054463802921834836,
+            "mean_validation_error": 0.023657978271652,
+            "max_potential_error_normalized": 0.009108150209995638,
+            "max_gradient_error_relative": 0.054463802921834836
+          },
+          {
+            "M": 25,
+            "max_validation_error": 0.0528983660150273,
+            "mean_validation_error": 0.02337838192353116,
+            "max_potential_error_normalized": 0.009151928360858015,
+            "max_gradient_error_relative": 0.0528983660150273
+          },
+          {
+            "M": 26,
+            "max_validation_error": 0.05241738565575705,
+            "mean_validation_error": 0.022111410840114525,
+            "max_potential_error_normalized": 0.008406589358121937,
+            "max_gradient_error_relative": 0.05241738565575705
+          },
+          {
+            "M": 27,
+            "max_validation_error": 0.04910697046850392,
+            "mean_validation_error": 0.02051745847150368,
+            "max_potential_error_normalized": 0.007942393080847238,
+            "max_gradient_error_relative": 0.04910697046850392
+          }
+        ]
+      },
+      {
+        "ambient_Nc": 8,
+        "indices": [
+          351,
+          437,
+          293,
+          277,
+          149,
+          324,
+          292,
+          227,
+          229,
+          151,
+          138,
+          259,
+          88,
+          331,
+          154,
+          284,
+          231,
+          87,
+          420,
+          199,
+          396,
+          7,
+          101,
+          120,
+          19,
+          70,
+          153
+        ],
+        "trace": [
+          {
+            "M": 1,
+            "max_validation_error": 0.4506311511694333,
+            "mean_validation_error": 0.1695130874653621,
+            "max_potential_error_normalized": 0.11575259696066789,
+            "max_gradient_error_relative": 0.4506311511694333
+          },
+          {
+            "M": 2,
+            "max_validation_error": 0.2573997920348221,
+            "mean_validation_error": 0.13756844695397932,
+            "max_potential_error_normalized": 0.08632835610812584,
+            "max_gradient_error_relative": 0.2573997920348221
+          },
+          {
+            "M": 3,
+            "max_validation_error": 0.25684680165691526,
+            "mean_validation_error": 0.12096820768666383,
+            "max_potential_error_normalized": 0.08676318328599199,
+            "max_gradient_error_relative": 0.25684680165691526
+          },
+          {
+            "M": 4,
+            "max_validation_error": 0.24448671058133165,
+            "mean_validation_error": 0.09998099380747037,
+            "max_potential_error_normalized": 0.07474489503362892,
+            "max_gradient_error_relative": 0.24448671058133165
+          },
+          {
+            "M": 5,
+            "max_validation_error": 0.18045042181566137,
+            "mean_validation_error": 0.08086510748827544,
+            "max_potential_error_normalized": 0.03050688960160051,
+            "max_gradient_error_relative": 0.18045042181566137
+          },
+          {
+            "M": 6,
+            "max_validation_error": 0.15560256669365594,
+            "mean_validation_error": 0.07188013613348926,
+            "max_potential_error_normalized": 0.030702414115102303,
+            "max_gradient_error_relative": 0.15560256669365594
+          },
+          {
+            "M": 7,
+            "max_validation_error": 0.1454528116431807,
+            "mean_validation_error": 0.06586700964867609,
+            "max_potential_error_normalized": 0.028268842446992782,
+            "max_gradient_error_relative": 0.1454528116431807
+          },
+          {
+            "M": 8,
+            "max_validation_error": 0.12887003553516824,
+            "mean_validation_error": 0.05882832253663618,
+            "max_potential_error_normalized": 0.028411565867359028,
+            "max_gradient_error_relative": 0.12887003553516824
+          },
+          {
+            "M": 9,
+            "max_validation_error": 0.12403935036593179,
+            "mean_validation_error": 0.053274669248295436,
+            "max_potential_error_normalized": 0.021172212250239054,
+            "max_gradient_error_relative": 0.12403935036593179
+          },
+          {
+            "M": 10,
+            "max_validation_error": 0.11935868845602716,
+            "mean_validation_error": 0.04795038782391982,
+            "max_potential_error_normalized": 0.018753167682057394,
+            "max_gradient_error_relative": 0.11935868845602716
+          },
+          {
+            "M": 11,
+            "max_validation_error": 0.1164059976273308,
+            "mean_validation_error": 0.04433086509115051,
+            "max_potential_error_normalized": 0.01885537982233159,
+            "max_gradient_error_relative": 0.1164059976273308
+          },
+          {
+            "M": 12,
+            "max_validation_error": 0.11498990662540909,
+            "mean_validation_error": 0.04266981816406527,
+            "max_potential_error_normalized": 0.017079982618752546,
+            "max_gradient_error_relative": 0.11498990662540909
+          },
+          {
+            "M": 13,
+            "max_validation_error": 0.09927586152327703,
+            "mean_validation_error": 0.03783611122641344,
+            "max_potential_error_normalized": 0.012907156461712829,
+            "max_gradient_error_relative": 0.09927586152327703
+          },
+          {
+            "M": 14,
+            "max_validation_error": 0.09687940447791908,
+            "mean_validation_error": 0.035996255137973554,
+            "max_potential_error_normalized": 0.012986631020052328,
+            "max_gradient_error_relative": 0.09687940447791908
+          },
+          {
+            "M": 15,
+            "max_validation_error": 0.08550629898333459,
+            "mean_validation_error": 0.03488475974787729,
+            "max_potential_error_normalized": 0.013060606802508918,
+            "max_gradient_error_relative": 0.08550629898333459
+          },
+          {
+            "M": 16,
+            "max_validation_error": 0.07349156666179385,
+            "mean_validation_error": 0.03348056289037189,
+            "max_potential_error_normalized": 0.010961171242993216,
+            "max_gradient_error_relative": 0.07349156666179385
+          },
+          {
+            "M": 17,
+            "max_validation_error": 0.06825491510183371,
+            "mean_validation_error": 0.032141556592086964,
+            "max_potential_error_normalized": 0.01076462300208168,
+            "max_gradient_error_relative": 0.06825491510183371
+          },
+          {
+            "M": 18,
+            "max_validation_error": 0.0681072532569041,
+            "mean_validation_error": 0.031106219318022158,
+            "max_potential_error_normalized": 0.010712702828840188,
+            "max_gradient_error_relative": 0.0681072532569041
+          },
+          {
+            "M": 19,
+            "max_validation_error": 0.06348176177267749,
+            "mean_validation_error": 0.029545800007337374,
+            "max_potential_error_normalized": 0.009818425820967877,
+            "max_gradient_error_relative": 0.06348176177267749
+          },
+          {
+            "M": 20,
+            "max_validation_error": 0.0543790522632878,
+            "mean_validation_error": 0.028489959205461626,
+            "max_potential_error_normalized": 0.009873433558985132,
+            "max_gradient_error_relative": 0.0543790522632878
+          },
+          {
+            "M": 21,
+            "max_validation_error": 0.05400476479995312,
+            "mean_validation_error": 0.02725521246757871,
+            "max_potential_error_normalized": 0.009764058297132946,
+            "max_gradient_error_relative": 0.05400476479995312
+          },
+          {
+            "M": 22,
+            "max_validation_error": 0.05376968894383971,
+            "mean_validation_error": 0.02674985056198389,
+            "max_potential_error_normalized": 0.009813947095720723,
+            "max_gradient_error_relative": 0.05376968894383971
+          },
+          {
+            "M": 23,
+            "max_validation_error": 0.053712635883300504,
+            "mean_validation_error": 0.024695437903361067,
+            "max_potential_error_normalized": 0.009799707427621126,
+            "max_gradient_error_relative": 0.053712635883300504
+          },
+          {
+            "M": 24,
+            "max_validation_error": 0.054463802921834836,
+            "mean_validation_error": 0.023657978271652048,
+            "max_potential_error_normalized": 0.009108150209995638,
+            "max_gradient_error_relative": 0.054463802921834836
+          },
+          {
+            "M": 25,
+            "max_validation_error": 0.052898366015028175,
+            "mean_validation_error": 0.023378381923531217,
+            "max_potential_error_normalized": 0.009151928360858015,
+            "max_gradient_error_relative": 0.052898366015028175
+          },
+          {
+            "M": 26,
+            "max_validation_error": 0.05241738565575821,
+            "mean_validation_error": 0.02211141084011455,
+            "max_potential_error_normalized": 0.008406589358121937,
+            "max_gradient_error_relative": 0.05241738565575821
+          },
+          {
+            "M": 27,
+            "max_validation_error": 0.049106970468504096,
+            "mean_validation_error": 0.020517458471503703,
+            "max_potential_error_normalized": 0.007942393080847437,
+            "max_gradient_error_relative": 0.049106970468504096
+          }
+        ]
+      },
+      {
+        "ambient_Nc": 10,
+        "indices": [
+          351,
+          437,
+          293,
+          277,
+          149,
+          324,
+          292,
+          227,
+          229,
+          151,
+          138,
+          259,
+          88,
+          331,
+          154,
+          284,
+          231,
+          87,
+          420,
+          199,
+          396,
+          7,
+          101,
+          120,
+          19,
+          70,
+          153
+        ],
+        "trace": [
+          {
+            "M": 1,
+            "max_validation_error": 0.4506311511694332,
+            "mean_validation_error": 0.1695130874653621,
+            "max_potential_error_normalized": 0.11575259696066868,
+            "max_gradient_error_relative": 0.4506311511694332
+          },
+          {
+            "M": 2,
+            "max_validation_error": 0.25739979203482205,
+            "mean_validation_error": 0.13756844695397927,
+            "max_potential_error_normalized": 0.08632835610812505,
+            "max_gradient_error_relative": 0.25739979203482205
+          },
+          {
+            "M": 3,
+            "max_validation_error": 0.2568468016569152,
+            "mean_validation_error": 0.12096820768666393,
+            "max_potential_error_normalized": 0.0867631832859912,
+            "max_gradient_error_relative": 0.2568468016569152
+          },
+          {
+            "M": 4,
+            "max_validation_error": 0.24448671058133156,
+            "mean_validation_error": 0.0999809938074705,
+            "max_potential_error_normalized": 0.07474489503362892,
+            "max_gradient_error_relative": 0.24448671058133156
+          },
+          {
+            "M": 5,
+            "max_validation_error": 0.1804504218156619,
+            "mean_validation_error": 0.08086510748827566,
+            "max_potential_error_normalized": 0.030506889601600116,
+            "max_gradient_error_relative": 0.1804504218156619
+          },
+          {
+            "M": 6,
+            "max_validation_error": 0.15560256669365558,
+            "mean_validation_error": 0.07188013613348916,
+            "max_potential_error_normalized": 0.030702414115102303,
+            "max_gradient_error_relative": 0.15560256669365558
+          },
+          {
+            "M": 7,
+            "max_validation_error": 0.14545281164317764,
+            "mean_validation_error": 0.06586700964867612,
+            "max_potential_error_normalized": 0.028268842446993177,
+            "max_gradient_error_relative": 0.14545281164317764
+          },
+          {
+            "M": 8,
+            "max_validation_error": 0.12887003553516782,
+            "mean_validation_error": 0.05882832253663606,
+            "max_potential_error_normalized": 0.028411565867359028,
+            "max_gradient_error_relative": 0.12887003553516782
+          },
+          {
+            "M": 9,
+            "max_validation_error": 0.124039350365932,
+            "mean_validation_error": 0.05327466924829526,
+            "max_potential_error_normalized": 0.021172212250239054,
+            "max_gradient_error_relative": 0.124039350365932
+          },
+          {
+            "M": 10,
+            "max_validation_error": 0.11935868845602728,
+            "mean_validation_error": 0.04795038782391983,
+            "max_potential_error_normalized": 0.018753167682057394,
+            "max_gradient_error_relative": 0.11935868845602728
+          },
+          {
+            "M": 11,
+            "max_validation_error": 0.1164059976273308,
+            "mean_validation_error": 0.044330865091150515,
+            "max_potential_error_normalized": 0.01885537982233159,
+            "max_gradient_error_relative": 0.1164059976273308
+          },
+          {
+            "M": 12,
+            "max_validation_error": 0.11498990662540923,
+            "mean_validation_error": 0.04266981816406525,
+            "max_potential_error_normalized": 0.017079982618752546,
+            "max_gradient_error_relative": 0.11498990662540923
+          },
+          {
+            "M": 13,
+            "max_validation_error": 0.09927586152327667,
+            "mean_validation_error": 0.0378361112264135,
+            "max_potential_error_normalized": 0.012907156461712631,
+            "max_gradient_error_relative": 0.09927586152327667
+          },
+          {
+            "M": 14,
+            "max_validation_error": 0.09687940447791901,
+            "mean_validation_error": 0.035996255137973554,
+            "max_potential_error_normalized": 0.012986631020052129,
+            "max_gradient_error_relative": 0.09687940447791901
+          },
+          {
+            "M": 15,
+            "max_validation_error": 0.08550629898332986,
+            "mean_validation_error": 0.034884759747877275,
+            "max_potential_error_normalized": 0.01306060680250852,
+            "max_gradient_error_relative": 0.08550629898332986
+          },
+          {
+            "M": 16,
+            "max_validation_error": 0.0734915666617936,
+            "mean_validation_error": 0.033480562890371844,
+            "max_potential_error_normalized": 0.010961171242993216,
+            "max_gradient_error_relative": 0.0734915666617936
+          },
+          {
+            "M": 17,
+            "max_validation_error": 0.06825491510183308,
+            "mean_validation_error": 0.03214155659208691,
+            "max_potential_error_normalized": 0.01076462300208168,
+            "max_gradient_error_relative": 0.06825491510183308
+          },
+          {
+            "M": 18,
+            "max_validation_error": 0.06810725325690212,
+            "mean_validation_error": 0.031106219318022082,
+            "max_potential_error_normalized": 0.010712702828839791,
+            "max_gradient_error_relative": 0.06810725325690212
+          },
+          {
+            "M": 19,
+            "max_validation_error": 0.06348176177267743,
+            "mean_validation_error": 0.029545800007337336,
+            "max_potential_error_normalized": 0.009818425820967877,
+            "max_gradient_error_relative": 0.06348176177267743
+          },
+          {
+            "M": 20,
+            "max_validation_error": 0.05437905226328749,
+            "mean_validation_error": 0.02848995920546159,
+            "max_potential_error_normalized": 0.009873433558985132,
+            "max_gradient_error_relative": 0.05437905226328749
+          },
+          {
+            "M": 21,
+            "max_validation_error": 0.05400476479995095,
+            "mean_validation_error": 0.027255212467578734,
+            "max_potential_error_normalized": 0.009764058297132946,
+            "max_gradient_error_relative": 0.05400476479995095
+          },
+          {
+            "M": 22,
+            "max_validation_error": 0.05376968894383994,
+            "mean_validation_error": 0.02674985056198399,
+            "max_potential_error_normalized": 0.009813947095720723,
+            "max_gradient_error_relative": 0.05376968894383994
+          },
+          {
+            "M": 23,
+            "max_validation_error": 0.053712635883301774,
+            "mean_validation_error": 0.02469543790336124,
+            "max_potential_error_normalized": 0.009799707427621126,
+            "max_gradient_error_relative": 0.053712635883301774
+          },
+          {
+            "M": 24,
+            "max_validation_error": 0.05446380292183479,
+            "mean_validation_error": 0.023657978271652187,
+            "max_potential_error_normalized": 0.009108150209995638,
+            "max_gradient_error_relative": 0.05446380292183479
+          },
+          {
+            "M": 25,
+            "max_validation_error": 0.05289836601502567,
+            "mean_validation_error": 0.023378381923531328,
+            "max_potential_error_normalized": 0.009151928360858015,
+            "max_gradient_error_relative": 0.05289836601502567
+          },
+          {
+            "M": 26,
+            "max_validation_error": 0.05241738565575727,
+            "mean_validation_error": 0.022111410840114698,
+            "max_potential_error_normalized": 0.008406589358121937,
+            "max_gradient_error_relative": 0.05241738565575727
+          },
+          {
+            "M": 27,
+            "max_validation_error": 0.04910697046850432,
+            "mean_validation_error": 0.02051745847150384,
+            "max_potential_error_normalized": 0.007942393080847238,
+            "max_gradient_error_relative": 0.04910697046850432
+          }
+        ]
+      }
+    ]
+  }
+}

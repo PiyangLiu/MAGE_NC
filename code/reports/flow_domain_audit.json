@@ -1,0 +1,87 @@
+{
+  "case_A": {
+    "case": "Figure 6 Case A",
+    "state_count": 552,
+    "all_map_residuals_finite": true,
+    "max_map_residual": 1.618927716128439e-07,
+    "online_minimums_eta_1_eta_2_eta_3_S_P_MPa": [
+      1.9346966891905744,
+      1.2449209484218102,
+      0.879680178621153,
+      9.529439735069823e-25,
+      2.033972079815934
+    ],
+    "online_maximums_eta_1_eta_2_eta_3_S_P_MPa": [
+      2.9958193223811698,
+      1.989655969672815,
+      1.3822124690755186,
+      0.9999999999999999,
+      3.189072470058081
+    ],
+    "selected_support_eta_min": [
+      -0.23693633846987688,
+      -0.1233333990275015,
+      -0.36167585567113214
+    ],
+    "selected_support_eta_max": [
+      3.1400597025576262,
+      2.7383490297809994,
+      1.4326285578946538
+    ],
+    "all_online_dual_states_inside_selected_componentwise_support_box": true,
+    "all_online_pressure_inside_declared_1p25_to_3p25_MPa": true,
+    "all_online_S_inside_closed_unit_interval": true,
+    "minimum_distance_to_solver_eta_bounds": 0.1677875309244814,
+    "minimum_distance_to_S_bounds": 9.529439735069823e-25,
+    "minimum_distance_to_pressure_bounds_MPa": 0.06092752994191919,
+    "selected_support_convex_hull_test_on_eta_1_to_eta_3": {
+      "available": true,
+      "inside_fraction": 1.0,
+      "max_inequality": -0.0009085799824224416
+    },
+    "interpretation": "The box and hull tests are coverage audits. The Massieu log-sum-exp remains mathematically evaluable outside the support hull; no online state was accepted by an explicit extrapolative branch or a root-selection step."
+  },
+  "case_B": {
+    "case": "Figure 6 Case B",
+    "state_count": 552,
+    "all_map_residuals_finite": true,
+    "max_map_residual": 1.525139460538398e-07,
+    "online_minimums_eta_1_eta_2_eta_3_S_P_MPa": [
+      2.015488118779695,
+      1.2449206779698747,
+      0.8796801566788751,
+      1.741387337116051e-29,
+      2.033862340877565
+    ],
+    "online_maximums_eta_1_eta_2_eta_3_S_P_MPa": [
+      2.9958193232333516,
+      1.9896557254486433,
+      1.3822134898575862,
+      0.9999999999999999,
+      3.189072421390912
+    ],
+    "selected_support_eta_min": [
+      -0.23693633846987688,
+      -0.1233333990275015,
+      -0.36167585567113214
+    ],
+    "selected_support_eta_max": [
+      3.1400597025576262,
+      2.7383490297809994,
+      1.4326285578946538
+    ],
+    "all_online_dual_states_inside_selected_componentwise_support_box": true,
+    "all_online_pressure_inside_declared_1p25_to_3p25_MPa": true,
+    "all_online_S_inside_closed_unit_interval": true,
+    "minimum_distance_to_solver_eta_bounds": 0.16778651014241386,
+    "minimum_distance_to_S_bounds": 1.741387337116051e-29,
+    "minimum_distance_to_pressure_bounds_MPa": 0.06092757860908815,
+    "selected_support_convex_hull_test_on_eta_1_to_eta_3": {
+      "available": true,
+      "inside_fraction": 1.0,
+      "max_inequality": -0.0009085916211826195
+    },
+    "interpretation": "The box and hull tests are coverage audits. The Massieu log-sum-exp remains mathematically evaluable outside the support hull; no online state was accepted by an explicit extrapolative branch or a root-selection step."
+  },
+  "model_sha256": "7aff7409b14ce475d0abb4cfce65b59bb2ae69dd04d586c1a84a0b1e3b4b33c8"
+}

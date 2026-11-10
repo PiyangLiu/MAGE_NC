@@ -1,0 +1,91 @@
+{
+  "name": "six-component noncritical PR fugacity-controlled equilibrium",
+  "components": [
+    "CH4",
+    "C2H6",
+    "C3H8",
+    "nC4",
+    "nC5",
+    "nC6"
+  ],
+  "temperature_K": 300.0,
+  "feed_composition_anchor": [
+    0.46,
+    0.12,
+    0.08,
+    0.12,
+    0.11,
+    0.11
+  ],
+  "kij": "zero classical PR mixing",
+  "distribution": "P_anchor in 1.95-2.75 MPa; eta_nC6 offset +/- 0.012-0.030",
+  "independent_splits": {
+    "candidate": {
+      "count": 1200,
+      "seed": 880101,
+      "generation_wall_s": 8.452891976999808,
+      "liquid_stable": 610,
+      "vapor_stable": 590,
+      "pressure_margin_min_MPa": 0.0702310396283525,
+      "Z_liquid_range": [
+        0.0733469967917291,
+        0.1156103578724178
+      ],
+      "Z_vapor_range": [
+        0.8873405773341758,
+        0.911998009120651
+      ]
+    },
+    "validation": {
+      "count": 360,
+      "seed": 880102,
+      "generation_wall_s": 2.3382076610000695,
+      "liquid_stable": 177,
+      "vapor_stable": 183,
+      "pressure_margin_min_MPa": 0.0699637920763623,
+      "Z_liquid_range": [
+        0.07315578201738675,
+        0.11560428665124071
+      ],
+      "Z_vapor_range": [
+        0.8875602243903719,
+        0.9117806434412563
+      ]
+    },
+    "heldout": {
+      "count": 800,
+      "seed": 880103,
+      "generation_wall_s": 5.510172794000027,
+      "liquid_stable": 405,
+      "vapor_stable": 395,
+      "pressure_margin_min_MPa": 0.07061713442409505,
+      "Z_liquid_range": [
+        0.07322153406693649,
+        0.11542814591739639
+      ],
+      "Z_vapor_range": [
+        0.8875128840262305,
+        0.911885579393986
+      ]
+    },
+    "confirmatory": {
+      "count": 1000,
+      "seed": 880104,
+      "generation_wall_s": 6.608366840999906,
+      "liquid_stable": 499,
+      "vapor_stable": 501,
+      "pressure_margin_min_MPa": 0.06927317510939436,
+      "Z_liquid_range": [
+        0.0733347446052369,
+        0.11611060212824129
+      ],
+      "Z_vapor_range": [
+        0.887336824623863,
+        0.9119763801276375
+      ]
+    }
+  },
+  "support_selection_uses_test": false,
+  "reference_generation_wall_s": 24.503654402999928,
+  "model_reference_generation_wall_s": 10.791099637999878
+}

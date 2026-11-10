@@ -1,0 +1,25 @@
+{
+  "PR_binary_and_ternary": {
+    "flash_first": true,
+    "tp_flash_or_stability_result_required": true,
+    "single_phase_rule": "retain only when stable TP-flash phase matches requested branch",
+    "two_phase_rule": "use TP-flash liquid x or vapour y composition for corresponding branch",
+    "root_rule": "low cubic root for liquid and high cubic root for vapour only after stability classification",
+    "metastable_states_in_support_pools": false,
+    "reason": "cubic-root selection by itself admits metastable roots and is therefore not a support acceptance rule"
+  },
+  "GERG2008": {
+    "flash_first": true,
+    "interface": "Thermopack two_phase_tpflash",
+    "single_phase_rule": "retain only when returned phase flag matches requested branch",
+    "two_phase_rule": "use returned x/y compositions",
+    "arbitrary_density_roots": false,
+    "metastable_states_in_support_pools": false
+  },
+  "Figure6_flow": {
+    "online_phase_switching": "complementarity residual Sg - projection(Sg + (pV-pL)/Pscale)",
+    "online_local_flash_calls": 0,
+    "phase_threshold": 0.0001,
+    "support_domain": "fixed 1280-support branch model"
+  }
+}

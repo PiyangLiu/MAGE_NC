@@ -1,0 +1,143 @@
+case,source,quantity,component,minimum,maximum,count
+Figure 2 liquid,candidate pool,temperature_K,,300.0,300.0,8192
+Figure 2 liquid,candidate pool,pressure_Pa,,450471.0318055004,5099803.470773622,8192
+Figure 2 liquid,candidate pool,branch_composition,component_1,0.005006680879741907,0.2675547868476569,8192
+Figure 2 liquid,candidate pool,branch_composition,component_2,0.7324452131523431,0.9949933191202581,8192
+Figure 2 liquid,candidate pool,dual_eta,eta_0,-0.00040090785014242015,-0.00040090785014242015,8192
+Figure 2 liquid,candidate pool,dual_eta,eta_1,-0.20093854189089125,3.729958262643707,8192
+Figure 2 liquid,candidate pool,dual_eta,eta_2,0.7766252183736158,1.0525348826894085,8192
+Figure 2 liquid,candidate pool,gradient_q,u_density,-229140576.84502634,-192411261.2082,8192
+Figure 2 liquid,candidate pool,gradient_q,c_1,51.860258331857786,3036.3987453430327,8192
+Figure 2 liquid,candidate pool,gradient_q,c_2,8312.300267363957,10475.079878098264,8192
+Figure 2 vapor,candidate pool,temperature_K,,300.0,300.0,8192
+Figure 2 vapor,candidate pool,pressure_Pa,,450378.88856604695,5099557.948904112,8192
+Figure 2 vapor,candidate pool,branch_composition,component_1,0.4062090137470297,0.9949616895895451,8192
+Figure 2 vapor,candidate pool,branch_composition,component_2,0.005038310410454883,0.5937909862529702,8192
+Figure 2 vapor,candidate pool,dual_eta,eta_0,-0.00040090785014242015,-0.00040090785014242015,8192
+Figure 2 vapor,candidate pool,dual_eta,eta_1,0.6177566844324478,3.81111735986746,8192
+Figure 2 vapor,candidate pool,dual_eta,eta_2,-3.312555735295773,0.8692972462300282,8192
+Figure 2 vapor,candidate pool,gradient_q,u_density,-8640983.32521725,-472045.2925361772,8192
+Figure 2 vapor,candidate pool,gradient_q,c_1,78.33119917842697,2246.046119596571,8192
+Figure 2 vapor,candidate pool,gradient_q,c_2,1.6019932697812471,244.94856756157782,8192
+Figure 3 liquid,candidate pool,temperature_K,,300.0,300.0,8192
+Figure 3 liquid,candidate pool,pressure_Pa,,450471.0318055004,5099803.470773622,8192
+Figure 3 liquid,candidate pool,branch_composition,component_1,0.005006680879741907,0.2675547868476569,8192
+Figure 3 liquid,candidate pool,branch_composition,component_2,0.7324452131523431,0.9949933191202581,8192
+Figure 3 liquid,candidate pool,dual_eta,eta_0,-0.00040090785014242015,-0.00040090785014242015,8192
+Figure 3 liquid,candidate pool,dual_eta,eta_1,-0.20093854189089125,3.729958262643707,8192
+Figure 3 liquid,candidate pool,dual_eta,eta_2,0.7766252183736158,1.0525348826894085,8192
+Figure 3 liquid,candidate pool,gradient_q,u_density,-229140576.84502634,-192411261.2082,8192
+Figure 3 liquid,candidate pool,gradient_q,c_1,51.860258331857786,3036.3987453430327,8192
+Figure 3 liquid,candidate pool,gradient_q,c_2,8312.300267363957,10475.079878098264,8192
+Figure 3 vapor,candidate pool,temperature_K,,300.0,300.0,8192
+Figure 3 vapor,candidate pool,pressure_Pa,,450378.88856604695,5099557.948904112,8192
+Figure 3 vapor,candidate pool,branch_composition,component_1,0.4062090137470297,0.9949616895895451,8192
+Figure 3 vapor,candidate pool,branch_composition,component_2,0.005038310410454883,0.5937909862529702,8192
+Figure 3 vapor,candidate pool,dual_eta,eta_0,-0.00040090785014242015,-0.00040090785014242015,8192
+Figure 3 vapor,candidate pool,dual_eta,eta_1,0.6177566844324478,3.81111735986746,8192
+Figure 3 vapor,candidate pool,dual_eta,eta_2,-3.312555735295773,0.8692972462300282,8192
+Figure 3 vapor,candidate pool,gradient_q,u_density,-8640983.32521725,-472045.2925361772,8192
+Figure 3 vapor,candidate pool,gradient_q,c_1,78.33119917842697,2246.046119596571,8192
+Figure 3 vapor,candidate pool,gradient_q,c_2,1.6019932697812471,244.94856756157782,8192
+Figure 4 liquid,candidate pool,temperature_K,,295.0,350.0,12000
+Figure 4 liquid,candidate pool,pressure_Pa,,500000.0,7000000.0,12000
+Figure 4 liquid,candidate pool,branch_composition,component_1,1.3989714511622077e-05,0.37299602892249495,12000
+Figure 4 liquid,candidate pool,branch_composition,component_2,0.627003971077505,0.9999860102854884,12000
+Figure 4 liquid,candidate pool,dual_eta,eta_0,-0.0004077028984499188,-0.0003436353001220744,12000
+Figure 4 liquid,candidate pool,dual_eta,eta_1,-6.02716352681794,4.018697486200398,12000
+Figure 4 liquid,candidate pool,dual_eta,eta_2,0.5823554798905635,2.0905630538660174,12000
+Figure 4 liquid,candidate pool,gradient_q,u_density,-236916510.54202062,-90896972.01919013,12000
+Figure 4 liquid,candidate pool,gradient_q,c_1,0.13577863380405378,4442.692046268263,12000
+Figure 4 liquid,candidate pool,gradient_q,c_2,6512.580588002208,10625.08301800677,12000
+Figure 4 vapor,candidate pool,temperature_K,,295.0,350.0,12000
+Figure 4 vapor,candidate pool,pressure_Pa,,500000.0,7000000.0,12000
+Figure 4 vapor,candidate pool,branch_composition,component_1,0.00046144220127834924,0.994955388577655,12000
+Figure 4 vapor,candidate pool,branch_composition,component_2,0.0050446114223450245,0.9995385577987217,12000
+Figure 4 vapor,candidate pool,dual_eta,eta_0,-0.0004077028984499188,-0.0003436353001220744,12000
+Figure 4 vapor,candidate pool,dual_eta,eta_1,-6.027163526817939,4.1172061373780675,12000
+Figure 4 vapor,candidate pool,dual_eta,eta_2,-3.0432955291241677,1.916716438466733,12000
+Figure 4 vapor,candidate pool,gradient_q,u_density,-14623063.641098864,565941.2718855568,12000
+Figure 4 vapor,candidate pool,gradient_q,c_1,0.09742926005675397,3340.058663897043,12000
+Figure 4 vapor,candidate pool,gradient_q,c_2,2.192473037460104,897.8684868213785,12000
+Figure 6 GERG liquid,candidate pool,temperature_K,,320.0,320.0,80000
+Figure 6 GERG liquid,candidate pool,pressure_Pa,,1501515.786163509,9999404.065310955,80000
+Figure 6 GERG liquid,candidate pool,branch_composition,component_1,0.06166202780151047,0.6994427944076234,80000
+Figure 6 GERG liquid,candidate pool,branch_composition,component_2,0.009478719180491186,0.30686591579026196,80000
+Figure 6 GERG liquid,candidate pool,branch_composition,component_3,0.17389660657204525,0.9140705731251961,80000
+Figure 6 GERG liquid,candidate pool,dual_eta,eta_0,-0.00037585110950851886,-0.00037585110950851886,80000
+Figure 6 GERG liquid,candidate pool,dual_eta,eta_1,1.6884165198417167,3.7383266300506373,80000
+Figure 6 GERG liquid,candidate pool,dual_eta,eta_2,0.4718986216837254,3.762644989650275,80000
+Figure 6 GERG liquid,candidate pool,dual_eta,eta_3,0.7260029516816371,1.3226804580121112,80000
+Figure 6 GERG liquid,candidate pool,gradient_q,u_density,-164777946.03780612,-62857335.30140274,80000
+Figure 6 GERG liquid,candidate pool,gradient_q,c_1,584.6289795737596,7135.764609575523,80000
+Figure 6 GERG liquid,candidate pool,gradient_q,c_2,89.43804356241543,3055.382971442558,80000
+Figure 6 GERG liquid,candidate pool,gradient_q,c_3,1549.3687063198267,8666.470524530732,80000
+Figure 6 GERG vapor,candidate pool,temperature_K,,320.0,320.0,80000
+Figure 6 GERG vapor,candidate pool,pressure_Pa,,1501157.2912335396,9995795.398950577,80000
+Figure 6 GERG vapor,candidate pool,branch_composition,component_1,0.371261635216214,0.7478690290123806,80000
+Figure 6 GERG vapor,candidate pool,branch_composition,component_2,0.0985770449477563,0.4402984103848122,80000
+Figure 6 GERG vapor,candidate pool,branch_composition,component_3,0.12545803511932688,0.3473483205920116,80000
+Figure 6 GERG vapor,candidate pool,dual_eta,eta_0,-0.00037585110950851886,-0.00037585110950851886,80000
+Figure 6 GERG vapor,candidate pool,dual_eta,eta_1,1.7120720568689844,3.741230895158337,80000
+Figure 6 GERG vapor,candidate pool,dual_eta,eta_2,0.4957068865851059,3.758731615081592,80000
+Figure 6 GERG vapor,candidate pool,dual_eta,eta_3,0.7220344671340639,1.3219903542275835,80000
+Figure 6 GERG vapor,candidate pool,gradient_q,u_density,-59414630.61644796,-1321347.1185002646,80000
+Figure 6 GERG vapor,candidate pool,gradient_q,c_1,247.88434307573638,5473.254976391326,80000
+Figure 6 GERG vapor,candidate pool,gradient_q,c_2,70.9783978286076,2777.65442929237,80000
+Figure 6 GERG vapor,candidate pool,gradient_q,c_3,220.19470328789527,1661.1357435987836,80000
+Figure 4 strengthened liquid,candidate pool excluding three 6 K bands,temperature_K,,295.0,350.0,12000
+Figure 4 strengthened liquid,candidate pool excluding three 6 K bands,pressure_Pa,,500000.0,7000000.0,12000
+Figure 4 strengthened liquid,candidate pool excluding three 6 K bands,branch_composition,component_1,1.3989714512379143e-05,0.3729960289224818,12000
+Figure 4 strengthened liquid,candidate pool excluding three 6 K bands,branch_composition,component_2,0.6270039710775182,0.9999860102854876,12000
+Figure 4 strengthened liquid,candidate pool excluding three 6 K bands,dual_eta,eta_0,-0.0004077028984499188,-0.0003436353001220744,12000
+Figure 4 strengthened liquid,candidate pool excluding three 6 K bands,dual_eta,eta_1,-6.027163526763828,4.018697486200005,12000
+Figure 4 strengthened liquid,candidate pool excluding three 6 K bands,dual_eta,eta_2,0.5823554798905769,2.1130229864840233,12000
+Figure 4 strengthened liquid,candidate pool excluding three 6 K bands,gradient_q,u_density,-237559597.51843667,-90896972.01815784,12000
+Figure 4 strengthened liquid,candidate pool excluding three 6 K bands,gradient_q,c_1,0.13577863381140157,4442.692046268099,12000
+Figure 4 strengthened liquid,candidate pool excluding three 6 K bands,gradient_q,c_2,6512.580587941241,10603.779054545903,12000
+Figure 4 strengthened liquid,selected 1024 supports,temperature_K,,295.0,350.0,4096
+Figure 4 strengthened liquid,selected 1024 supports,pressure_Pa,,500000.0,7000000.0,4096
+Figure 4 strengthened liquid,selected 1024 supports,dual_eta,eta_0,-0.0004077028984499188,-0.0003436353001220744,4096
+Figure 4 strengthened liquid,selected 1024 supports,dual_eta,eta_1,-6.027163526763828,4.018697486200005,4096
+Figure 4 strengthened liquid,selected 1024 supports,dual_eta,eta_2,0.5823554798905769,2.1130229864840233,4096
+Figure 4 strengthened vapor,candidate pool excluding three 6 K bands,temperature_K,,295.0,350.0,12000
+Figure 4 strengthened vapor,candidate pool excluding three 6 K bands,pressure_Pa,,500000.0,7000000.0,12000
+Figure 4 strengthened vapor,candidate pool excluding three 6 K bands,branch_composition,component_1,0.0004614422013033279,0.9949540055636317,12000
+Figure 4 strengthened vapor,candidate pool excluding three 6 K bands,branch_composition,component_2,0.0050459944363683285,0.9995385577986967,12000
+Figure 4 strengthened vapor,candidate pool excluding three 6 K bands,dual_eta,eta_0,-0.0004077028984499188,-0.0003436353001220744,12000
+Figure 4 strengthened vapor,candidate pool excluding three 6 K bands,dual_eta,eta_1,-6.027163526763812,4.1045895320513885,12000
+Figure 4 strengthened vapor,candidate pool excluding three 6 K bands,dual_eta,eta_2,-3.4110852413269654,1.9185864439876485,12000
+Figure 4 strengthened vapor,candidate pool excluding three 6 K bands,gradient_q,u_density,-14623063.641099308,578447.6961734588,12000
+Figure 4 strengthened vapor,candidate pool excluding three 6 K bands,gradient_q,c_1,0.09742926006202746,3340.058663897052,12000
+Figure 4 strengthened vapor,candidate pool excluding three 6 K bands,gradient_q,c_2,1.3995481244288694,897.8684868168408,12000
+Figure 4 strengthened vapor,selected 1024 supports,temperature_K,,295.0,350.0,4096
+Figure 4 strengthened vapor,selected 1024 supports,pressure_Pa,,500000.0,7000000.0,4096
+Figure 4 strengthened vapor,selected 1024 supports,dual_eta,eta_0,-0.0004077028984499188,-0.0003436353001220744,4096
+Figure 4 strengthened vapor,selected 1024 supports,dual_eta,eta_1,-6.027163526763812,4.1045895320513885,4096
+Figure 4 strengthened vapor,selected 1024 supports,dual_eta,eta_2,-3.4110852413269654,1.9185864439876485,4096
+Figure 5 liquid,declared candidate pool,temperature_K,,320.0,320.0,1664
+Figure 5 liquid,declared candidate pool,pressure_Pa,,1251337.0921794844,3247293.0263248426,1664
+Figure 5 liquid,declared candidate pool,branch_composition,component_1,0.004591117471102867,0.12063866293897837,1664
+Figure 5 liquid,declared candidate pool,branch_composition,component_2,0.01613008317880518,0.28098882674041686,1664
+Figure 5 liquid,declared candidate pool,branch_composition,component_3,0.6779424186765578,0.9415761362029547,1664
+Figure 5 liquid,selected 1280 supports,dual_eta,eta_0,-0.00037585110950851886,-0.00037585110950851886,1280
+Figure 5 liquid,selected 1280 supports,dual_eta,eta_1,-0.23693633846987688,3.021610188771587,1280
+Figure 5 liquid,selected 1280 supports,dual_eta,eta_2,-0.1233333990275015,2.7383490295458377,1280
+Figure 5 liquid,selected 1280 supports,dual_eta,eta_3,1.1278584202454667,1.4326285578946538,1280
+Figure 5 liquid,selected 1280 supports,gradient_q,u_density,-204284495.8763086,-187207045.369075,1280
+Figure 5 liquid,selected 1280 supports,gradient_q,c_1,47.41330769824902,1253.4204313439034,1280
+Figure 5 liquid,selected 1280 supports,gradient_q,c_2,162.02406025137168,3124.83281601603,1280
+Figure 5 liquid,selected 1280 supports,gradient_q,c_3,7539.291657340025,9539.708859838083,1280
+Figure 5 vapor,declared candidate pool,temperature_K,,320.0,320.0,1966
+Figure 5 vapor,declared candidate pool,pressure_Pa,,1251337.0921794844,3247293.0263248426,1966
+Figure 5 vapor,declared candidate pool,branch_composition,component_1,0.061450180537985025,0.774948870908203,1966
+Figure 5 vapor,declared candidate pool,branch_composition,component_2,0.0851720906852096,0.6302217114578794,1966
+Figure 5 vapor,declared candidate pool,branch_composition,component_3,0.05711889761804488,0.3996440740285997,1966
+Figure 5 vapor,selected 1280 supports,dual_eta,eta_0,-0.00037585110950851886,-0.00037585110950851886,1280
+Figure 5 vapor,selected 1280 supports,dual_eta,eta_1,-0.23693633747312973,3.1400597025576262,1280
+Figure 5 vapor,selected 1280 supports,dual_eta,eta_2,0.26507683535794824,2.7383490297809994,1280
+Figure 5 vapor,selected 1280 supports,dual_eta,eta_3,-0.36167585567113214,1.3689099992586413,1280
+Figure 5 vapor,selected 1280 supports,gradient_q,u_density,-5478959.651705972,-1435969.9425303352,1280
+Figure 5 vapor,selected 1280 supports,gradient_q,c_1,33.213655019307076,1021.0079160354917,1280
+Figure 5 vapor,selected 1280 supports,gradient_q,c_2,55.052935156983565,813.9076207246748,1280
+Figure 5 vapor,selected 1280 supports,gradient_q,c_3,32.37831024753292,278.0251123512186,1280

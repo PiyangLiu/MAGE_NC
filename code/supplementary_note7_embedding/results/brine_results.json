@@ -1,0 +1,56 @@
+{
+  "test": "dimensionless_nonideal_aqueous_dual_closure",
+  "not_full_PR_Pitzer_or_eCPA": true,
+  "is_not_fixed_p_z_flash": true,
+  "liquid_supports": 384,
+  "gas_supports": 256,
+  "tau": 0.0015,
+  "candidate": 1800,
+  "validation": 500,
+  "heldout_test": 600,
+  "timed_queries": 500,
+  "liquid_accuracy": {
+    "mean_potential_absolute": 0.009013404922936681,
+    "max_potential_absolute": 0.012078800941393686,
+    "mean_gradient_relative": 0.009110697518226251,
+    "max_gradient_relative": 0.0453039449473044
+  },
+  "gas_accuracy": {
+    "mean_potential_absolute": 0.005483939387880535,
+    "max_potential_absolute": 0.011081062784727091,
+    "mean_gradient_relative": 0.011953828306398538,
+    "max_gradient_relative": 0.0887746170335
+  },
+  "phase_classification_fraction": 0.9966666666666667,
+  "robust_margin_count": 582,
+  "robust_margin_classification_fraction": 1.0,
+  "reference_inversion_max_density_residual": 3.907985046680551e-13,
+  "reference_inversion_mean_function_evaluations": 11.233333333333333,
+  "reference": {
+    "median_us_per_query": 363.95333600000004,
+    "repeats_us_per_query": [
+      335.896184,
+      363.95333600000004,
+      433.70245400000005,
+      407.823282,
+      358.76264199999997
+    ]
+  },
+  "mage": {
+    "median_us_per_query": 37.439769999999996,
+    "repeats_us_per_query": [
+      49.356593999999994,
+      37.439769999999996,
+      56.901066,
+      31.426354,
+      34.47932
+    ]
+  },
+  "online_speedup_reference_over_mage": 9.721035572601009,
+  "offline_construction_seconds": 0.08958044599967252,
+  "estimated_amortization_queries": 274.35443830738876,
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41"
+}

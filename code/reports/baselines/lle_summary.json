@@ -1,0 +1,21 @@
+{
+    "schema_version":  "1.0",
+    "case":  "liquid_liquid",
+    "analytic":  {
+                     "x_L1":  0.0707201817,
+                     "x_L2":  0.9292798183
+                 },
+    "selected_supports":  {
+                              "L1":  192,
+                              "L2":  184
+                          },
+    "MAGE":  {
+                 "x_L1":  0.069539567484383488,
+                 "x_L2":  0.92842063076984638,
+                 "maximum_absolute_error":  0.0011806142156165073
+             },
+    "source_tables":  [
+                          "source_data/Figure5/Figure5d_LLE_coexistence.json",
+                          "source_data/Figure5/Figure5e_LLE_errors.csv"
+                      ]
+}

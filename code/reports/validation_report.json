@@ -1,0 +1,60 @@
+{
+  "status": "passed",
+  "python_entry_points_compiled": [
+    "common/mage_core.py",
+    "common/run_mage_examples.py",
+    "figure2_binary_equilibrium/run_figure2.py",
+    "figure3_support_compression/run_figure3.py",
+    "figure4_nonisothermal/run_figure4.py",
+    "figure4_nonisothermal/run_retained_figure4.py",
+    "figure6_gerg2008/run_figure6_gerg.py",
+    "figure6_lle/run_figure6_lle.py",
+    "non_pr_storage_or_brine_validation/cpa_three_phase_reference/run_cpa_three_phase.py",
+    "non_pr_storage_or_brine_validation/run_brine_validation.py",
+    "reports/audit_tangent_plane_supports.py",
+    "unified_selection/run_ternary_caseB_unified.py",
+    "unified_selection/run_ternary_unified.py"
+  ],
+  "required_files_present": 23,
+  "caseB_phase_validation": {
+    "space_time_states": 552,
+    "matched_states": 552,
+    "match_fraction": 1.0,
+    "mismatches": 0,
+    "MAGE_phase_events": 24,
+    "PR_phase_events": 24,
+    "event_identity": true
+  },
+  "second_flow_phase_validation": {
+    "space_time_states": 558,
+    "matched_states": 558,
+    "match_fraction": 1.0,
+    "mismatches": 0,
+    "MAGE_phase_events": 24,
+    "PR_phase_events": 24,
+    "event_identity": true
+  },
+  "caseB_continuous_state_errors": {
+    "pressure_relative_error_mean": 0.0005125847787425049,
+    "pressure_relative_error_max": 0.005001898872609755,
+    "composition_absolute_error_mean": 0.000661103769327661,
+    "composition_absolute_error_max": 0.05748412852981383,
+    "gas_saturation_absolute_error_mean": 0.0011244535392240637,
+    "gas_saturation_absolute_error_max": 0.012313537702882432
+  },
+  "support_domain": {
+    "case_A_inside_box": true,
+    "case_A_inside_hull_fraction": 1.0,
+    "case_B_inside_box": true,
+    "case_B_inside_hull_fraction": 1.0
+  },
+  "strengthened_figure4_all_checks_pass": true,
+  "gas_brine_maximum_derivative_relative_error": 8.606487095458438e-11,
+  "gas_brine_maximum_coexistence_residual": 1.79882150841415e-14,
+  "tangent_plane_support_audit": {
+    "status": "passed",
+    "selected_ternary_supports_accepted": true,
+    "liquid_supports_rechecked": 1280,
+    "vapor_supports_rechecked": 1280
+  }
+}
