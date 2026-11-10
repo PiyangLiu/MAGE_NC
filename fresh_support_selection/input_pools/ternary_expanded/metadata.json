@@ -1,0 +1,44 @@
+{
+  "domain": {
+    "P_MPa": [
+      1.25,
+      3.25
+    ],
+    "temperature_K": 320.0,
+    "composition_sampling": "Dirichlet mixture around eight fixed operating centers"
+  },
+  "splits": [
+    {
+      "split": "train",
+      "target_per_branch": 8192,
+      "counts": {
+        "liquid": 8192,
+        "vapor": 8192
+      },
+      "attempts": 12032,
+      "flash_calls": 12032
+    },
+    {
+      "split": "validation",
+      "target_per_branch": 4096,
+      "counts": {
+        "liquid": 4096,
+        "vapor": 4096
+      },
+      "attempts": 6144,
+      "flash_calls": 6144
+    },
+    {
+      "split": "test",
+      "target_per_branch": 4096,
+      "counts": {
+        "liquid": 4096,
+        "vapor": 4096
+      },
+      "attempts": 5888,
+      "flash_calls": 5888
+    }
+  ],
+  "flow_trajectory_used": false,
+  "energy_reference": "PR residual internal energy density minus 3e6 J/m^3"
+}
