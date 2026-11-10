@@ -1,8 +1,0 @@
-{
-  "candidate_parent_states": 1024,
-  "candidate_states_per_phase": 2048,
-  "monitor_parent_states": 256,
-  "test_parent_states": 512,
-  "construction": "coexistence states plus one perturbed homogeneous state per training parent",
-  "source_reference": "brine_reference/gibbs_reference.npz"
-}
