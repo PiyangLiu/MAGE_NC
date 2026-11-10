@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "delivery_root": ".",
+  "entry_points": {
+    "figure2_binary_equilibrium": "figure2_binary_equilibrium/run_figure2.py",
+    "figure3_support_compression": "figure3_support_compression/run_figure3.py",
+    "figure4_nonisothermal_strengthened": "figure4_nonisothermal/run_figure4.py",
+    "figure4_nonisothermal_retained": "figure4_nonisothermal/run_retained_figure4.py",
+    "figure5_ternary_fully_implicit": "unified_selection/run_ternary_unified.py",
+    "figure6_gerg2008": "figure6_gerg2008/run_figure6_gerg.py",
+    "figure6_lle": "figure6_lle/run_figure6_lle.py",
+    "caseB_same_support_flow": "unified_selection/run_ternary_caseB_unified.py",
+    "non_pr_gas_brine": "non_pr_storage_or_brine_validation/run_brine_validation.py",
+    "non_pr_cpa_companion": "non_pr_storage_or_brine_validation/cpa_three_phase_reference/run_cpa_three_phase.py",
+    "tangent_plane_support_audit": "reports/audit_tangent_plane_supports.py",
+    "supplementary_note6_sixcomponent": "supplementary_note6_sixcomponent/benchmark.py",
+    "supplementary_note7_embedding": "supplementary_note7_embedding/pr_embedding.py"
+  },
+  "key_results": {
+    "figure4_strengthened": "figure4_nonisothermal/strengthened_results/summary.json",
+    "figure5_caseA": "../data/coupled_ternary_flow_plot_data.json",
+    "primary_flow": "../source_data/Figure6_and_SupplementaryFigure1/calculation_summary.json",
+    "caseB": "../source_data/Supplementary_Note_5_2_second_flow/caseB_summary.json",
+    "flow_domain_audit": "reports/flow_domain_audit.json",
+    "tangent_plane_support_validity": "reports/tangent_plane_support_validity.json",
+    "gas_brine": "non_pr_storage_or_brine_validation/brine_validation_summary.json",
+    "supplementary_note6": "../source_data/Supplementary_Note_6_sixcomponent/results/verified_benchmark.json",
+    "supplementary_note7": "../source_data/Supplementary_Note_7_embedding/results/embedding_results.csv"
+  },
+  "method_reports": {
+    "support_filtering": "reports/support_state_filtering.json",
+    "potential_scaling": "reports/potential_scaling_parameters.csv",
+    "support_domains": "reports/support_domain_bounds.csv",
+    "flow_domain_audit": "reports/flow_domain_audit.json",
+    "offline_conventions": "reports/offline_pool_conventions.md",
+    "SI_parameter_table": "reports/si_parameter_table.md",
+    "validation": "reports/validation_report.json",
+    "supplementary_note6_manifest": "../source_data/Supplementary_Note_6_sixcomponent/manifest.json",
+    "supplementary_note7_manifest": "../source_data/Supplementary_Note_7_embedding/manifest.json"
+  },
+  "hard_acceptance_rule": "The primary flow requires all 552 phase labels and the second flow all 558 phase labels to match the independent fully implicit PR calculation; every phase-event step/cell/transition must also match."
+}
