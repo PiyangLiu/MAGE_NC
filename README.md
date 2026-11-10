@@ -110,3 +110,9 @@ The Note 6 and Note 7 numerical source files are also mirrored under
 `source_data/Supplementary_Note_6_sixcomponent/` and
 `source_data/Supplementary_Note_7_embedding/`. The original benchmark archives
 are retained in `code/` for exact file-level provenance.
+
+## Dataset
+
+The machine-readable data associated with this release are archived on Zenodo:
+
+https://doi.org/10.5281/zenodo.24095791
